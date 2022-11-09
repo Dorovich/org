@@ -1,0 +1,152 @@
+#+title: oneshot troika
+#+author: vido25
+#+options: num:nil \n:t
+
+* I. Lore
+
+Los jugadores son prisioneros sentenciados a muerte destinados una de las prisiones-templo del divino Autarca.
+
+La historia empieza en el momento en el que los prisioneros son despertados de su   hipersueño para empezar la ejecución. Un campo de antimagia previene el uso de hechizos dentro del recinto a aquellos que porten la Marca de Condena del Autarca. Los directores y capitanes del complejo son los hermanos Espolón: Myke, Eladio y Mora, que estan al servicio del Autarca en esta prisión-templo.
+
+Cuando la cola se forma y empieza a circular, se escucha una explosión, y al momento se desata el caos: la sala se llena de flamas, aullidos y truenos. Un prisionero os pone al día: Alfroid, uno de los más hábiles presos ha conseguido burlar a los guardias y destruir el núcleo del campo de antimagia, ¡Ahora es la oportunidad de escapar! Pero la resistencia de los Guardas es fuerte, y gracias a algunos miembros de el Crub de cocina de la Señorita Kinsey y  Domasanguijuelas se ha excavado la Trinchera en gran parte del prisión-templo.
+
+* II. Eventos
+
+En la Trinchera avistáis un escondrijo. Dentro, un grupo de gatos juega a apuestas. Esta partida la mesa está que arde, hay algo de mucho valor en juego: un Compañero de Sombra (Marioneta de un simpático cánido. Cuando se coloca en una mano o apéndice, le otorga al portador la capacidad de usar el hechizo Sabueso de Sombras).
+
+Mientras caminan por la Trinchera encontrais un grupo de gremlins dormidos. Al ver a Chirumiru, se rien de ella ya que son de clanes enfrentados por tener los tuneles de mayor extension.
+
+* III. Hechizos
+
+*Sabueso de Sombras* (4)
+A través de marionetas de mano o utilizando implementos con forma de perro, el mago evoca un sabueso sombrío. El Sabueso es bidimensional, capaz de dañar físicamente a una criatura atacando su sombra, haciendo Daño como Bestia Modesta.
+
+*Abrir las Puertas* (3)
+El diabolista invita a un demonio a unirse a ellos en esta esfera. Esto no garantiza que la criatura vaya a estar feliz de esto, ni de que desee asistir al mago. Después de considerables cánticos para sintonizar el coro deseado, el diabolista dira un d6 (2d6 si se usa el verdadero nombre del demonio) más su habilidad de Abrir las Puertas y consulta la tabla siguiente (13+ cuenta para avances):
+
+|   *#* | *Resultado*                                                                                |
+|-------+--------------------------------------------------------------------------------------------|
+|   2-5 | Nada ocurre.                                                                               |
+|   6-9 | Un demonio aleatorio enfurecido por la invocación aparece.                                 |
+| 10-14 | Un demonio misceláneo es invocado (d6: 1-2 menor, 3-5 vulgar, 6 superior)                  |
+| 15-16 | Un demonio mal equipado para la tarea es invocado.                                         |
+|   17+ | Aparece justo a quien se pretendía, o un demonio a la altura de las expectativas del mago. |
+
+* IV. Criaturas
+
+** *Myke*
+El menor de los tres, un cazador de magos y demonios alimentado por la rabia de la injusticia hacia Mora. Se dedica a preparar el armamento y suministros.
+
+/Habilidad 7/
+/Estamina 18/
+/Iniciativa 3/
+/Armadura 0/
+
+Daño como Espadón o Bestia modesta
+
+*Especial*
+Si Mike ataca dos veces al mismo objetivo, ha usado su mordida. Mike recupera la mitad del daño infligido con este último ataque.
+
+** *Eladio*
+El mediano, es un veterano paratrooper de la legión de Karrix. Actualmente se dedica al espionaje, negocios e interrogaciones con su método especial.
+
+/Habilidad 9/
+/Estamina 14/
+/Iniciativa 2/
+/Armadura 1/
+
+Daño como Pistola o Cuchillo
+
+*Especial*
+Eladio puede escupir a un objetivo, el cual pone a prueba su suerte o queda avergonzado y durante el siguiente turno los ataques contra él añaden 1 a su tirada de daño.
+
+** *Mora*
+El mayor de los hermanos, revivido gracias al poder del Autarca, se encarga de la gestión de la mente colmena de Guardas de la prisión y del campo de antimagia.
+
+/Habilidad 8/
+/Estamina 16/
+/Iniciativa 2/
+/Armadura 1/
+
+Daño como Espada
+
+*Especial*
+Sufre el doble de daño contra armas de plata, ya que es un no-muerto. Tiene acceso a los hechizos Miedo, Deshacer, Paz, Consejo esquelético y Golpe cruel (Callous strike)
+
+** *Guarda*
+Los guardas de las prisiones comunes suelen ser demonios, espíritus, zombis u otras criaturas con la s que es fácil hacer un contrato o controlar.
+
+/Habilidad 6/
+/Estamina 12/
+/Iniciativa 2/
+/Armadura 1 /
+
+Daño como Espada, Pistola o Fusil
+
+** *Alfroid*
+Un cacogeno que fue capaz de camuflarse como Guarda usando su Velare y desactivar el campo de antimagia para la fuga, pero tras su captura por Eladio ha sido convertido en zoántropo.
+
+/Habilidad 8/
+/Estamina 16/
+/Iniciativa 2/
+/Armadura 0/
+
+Daño como Bestia modesta o Espada larga
+
+*Especial*
+Alfroid tiene acceso al hechizo  Daga del asesino, con el que lanza su espada larga a un objetivo (mientras no la haya recuperado atacará con arañazos).
+
+** *Chirumiru*
+Una maga desquiciada, es comprensible que acabara en un lugar como este.
+
+/Habilidad 6/
+/Estamina 6/
+/Iniciativa 2/
+/Armadura 0/
+
+Daño como Bastón
+
+*Especial*
+Chirumiru tiene acceso al hechizo Explosión, y no dudará en usarlo para mostrar cómo mola.
+
+** *Demonio Menor*
+/Habilidad 4/
+/Estamina 3/
+/Iniciativa 5/
+/Armadura 0/
+
+Daño como Bestia pequeña
+
+*Especial*
+De acuerdo al coro demoniaco al que pertenece
+
+** *Demonio Vulgar*
+/Habilidad 8/
+/Estamina 6/
+/Iniciativa 4/
+/Armadura 1/
+
+Daño como Arma
+
+*Especial*
+De acuerdo al coro demoniaco al que pertenece
+
+** *Demonio Superior*
+/Habilidad 13/
+/Estamina 15/
+/Iniciativa 4/
+/Armadura 3/
+
+Daño como Bestia grande o Arma
+
+*Especial*
+De acuerdo al coro demoniaco al que pertenece
+
+| *#* | Mien de demonio |
+|-----+-----------------|
+|   1 | Presumido       |
+|   2 | Engañoso        |
+|   3 | Siniestro       |
+|   4 | Codicioso       |
+|   5 | Paranoico       |
+|   6 | Desinteresado   |
