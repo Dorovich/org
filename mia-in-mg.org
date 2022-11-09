@@ -91,25 +91,25 @@ Las bestias no son el único peligro que asola a los humanos en el inframundo. L
 El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
 
 *** 1ª - *Borde del Abismo* (0~1350m)
-+ No hay pérdida de Naturaleza. Prueba de Salud Ob.2 o quedas mareado (como Cansado).
+ No hay pérdida de Naturaleza. Prueba de Salud Ob.2 o quedas mareado (como Cansado).
 
 *** 2ª - *Bosque de la tentación* (1350~2600m)
-+ Tu Naturaleza se deteriora en 1 punto. Prueba de Salud Ob.3 o sufres náuseas y dolores de cabeza (como Cansado y Enfadado).
+ Tu Naturaleza se deteriora en 1 punto. Prueba de Salud Ob.3 o sufres náuseas y dolores de cabeza (como Cansado y Enfadado).
 
 *** 3ª - *La gran falla* (2600~7000m)
-+ Tu Naturaleza se deteriora en 2 puntos. Prueba de Voluntad Ob.3 o sufres vértigo y alucinaciones (como Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante veinte minutos).
+ Tu Naturaleza se deteriora en 2 puntos. Prueba de Voluntad Ob.3 o sufres vértigo y alucinaciones (como Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante veinte minutos).
 
 *** 4ª - *Cáliz de gigantes* (7000~12000m)
-+ Deterioro de 3 puntos de Naturaleza. Prueba de Salud Ob.4 o sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (como Cansado y Herido). Si el margen de fallo fue de 3 o más, quedas inconsciente.
+ Deterioro de 3 puntos de Naturaleza. Prueba de Salud Ob.4 o sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (como Cansado y Herido). Si el margen de fallo fue de 3 o más, quedas inconsciente.
 
 *** 5ª - *Mar de cadáveres* (12000~13000m)
-+ Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.
+ Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.
 
 *** 6ª - *Capital sin retorno* (13000~15500m)
-+ Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).
+ Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).
 
 *** 7ª - *El vórtice final* (15000~?????m)
-+ Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
+ Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
 
 ** /*Distorsión temporal*/
 Se dice que hay alún tipo de distorsión del tiempo dentro del Abismo, aunque no se sabe con certeza si es real o una mera sensación de los exploradores. La Silbato Blanco Ozen afirma que el efecto se vuelve extremo a partir de la quinta capa de las profundidades, por experiencia propia: ella descendió lo que supuso fueron un par de semanas, pero en la superfície habían pasado meses.
