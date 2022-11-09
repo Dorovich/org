@@ -13,7 +13,7 @@ Debo advertir que haré referencia a eventos, escenarios y personajes que hacen 
 * *Personajes*
 Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso (¿y quizas como Aubade también...?).
 
-Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estos límites puedan variar fuera de estos límites que originariamente se imponen.
+Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.
 
 ** /*Salud*/
 En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
@@ -46,6 +46,18 @@ Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
+** /*Rango*/
+Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
+
+| *Rango*  | *Edad* | *Salud* | *Voluntad* |
+|----------+--------+---------+------------|
+| Cascabel | 5~11   |       5 |          2 |
+| Rojo     | 12~17  |       6 |          3 |
+| Azul     | 18~25  |       5 |          4 |
+| Lunar    | 21~50  |       4 |          4 |
+| Negro    | 31~60  |       4 |          5 |
+| Blanco   | 41~60  |       5 |          6 |
+
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
 
@@ -68,12 +80,30 @@ El ascenso por las diferentes capas tiene efectos adversos para los personajes. 
 + Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.
 
 6ª - *Capital sin retorno* (13000~15500m)
-+ Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido y tu Salud y Voluntad se reducen en 1. Mutas permanentemente a un Narehate (Rasgo).
++ Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).
 
 7ª - *El vórtice final* (15000~?????m)
-+ Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado, Herido y tu Salud y Voluntad se reducen en 2. Mutas permanentemente a un Narehate (Rasgo).
++ Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
+
+** /*Distorsión temporal*/
+Se dice que hay alún tipo de distorsión del tiempo dentro del Abismo, aunque no se sabe con certeza si es real o una mera sensación de los exploradores. La Silbato Blanco Ozen afirma que el efecto se vuelve extremo a partir de la quinta capa de las profundidades, por experiencia propia: ella descendió lo que supuso fueron un par de semanas, pero en la superfície habían pasado meses.
+
+Este efecto es opcional. Si escoges usarlo en vuestra partida, considera que una hora en la superfície equivale a la mitad del número de la capa actual de los jugadores, por ejemplo: una hora en la superfície son 2 horas en la 4ª capa.
 
 ** /*Naturaleza 0, Naturaleza 7*/
 Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.
 
 En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
+
+** /*Bendición y Maldición*/
+
+* *Rasgos*
+
+** /*Narehate*/
+"/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
+
+Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 3. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
+
+Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido a un confuso montón de carne y tu Naturaleza, Salud y Voluntad se reducen a 1. Si obtuviste la Bendición, tu cuerpo cobra un aspecto más bestial, animal (pelaje, cola, alas, garras, largas orejas, escamas...). Ponte de acuerdo con en GM para esta mutación basándote en los deseos u objetivos de tu personaje.
+
+El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
