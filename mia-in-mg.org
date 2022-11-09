@@ -62,27 +62,43 @@ Existen distintos rangos, de igual forma que en la Guardia de los ratones. Ésto
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
 
 ** /*Primera capa*/
-*** Silkfang
+*** Silkfang (Gokoge)
 *** Hammerbeak
+*** Demonfish (Gankimasu)
+
 ** /*Segunda capa*/
 *** Corpse Weeper (Nakikabane)
 *** Inbyo
-*** Ottobasu
+*** Ottobas (Ottobasu)
 *** Wyvern
+*** Rohana
+
 ** /*Tercera capa*/
 *** Madokajack
 *** Sierpe Carmesí (Benikuchinawa)
+*** Neritantan
+*** Onitsuchi
+*** Amakagame
+
 ** /*Cuarta capa*/
-*** Orbed Piercer
+*** Orbed Piercer (Tamaugachi)
 *** Subterranean Jungle Mosquito
+*** Onitsuchi
+*** Shroombear (Takeguma)
+
 ** /*Quinta capa*/
 *** Desert hydra
+*** Stingerhead
+*** Hamashirama
+
 ** /*Sexta capa*/
-*** Armorshell
-*** Kuongatari (enjambre)
-*** Dragon Molusco (Ryuusazai)
+*** Meinastoirim
+*** Emperorshell
+*** Amaranthine-Deceptor (Kuongatari)
+*** Dragón Molusco (Ryuusazai)
 *** Misoujack
 *** Fuzosheppu
+*** Hermit Rat (Yadone)
 
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
