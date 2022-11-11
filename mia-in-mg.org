@@ -1,7 +1,7 @@
 #+title: Made in Abyss - el juego de rol
 #+subtitle: Usando el sistema Burning Wheel (Mouse Guard RPG)
 #+author: Dorovich
-#+options: \n:t num:nil timestamp:nil
+#+options: \n:t num:t timestamp:nil
 
 * *Prefacio*
 Si bien posiblemente no hay sistema que puede englobar y describir toda la riqueza que emana el Abismo de Akihito Tsukushi, bajo mi criterio considero que Burning Wheel -o mejor dicho, la modificación usada para el juego de rol de Mouse Guard- es la opción que conozco que mejor se adapta a lo que pretendo ilustrar en las aventuras de los jugadores en este desolador agujero.
@@ -49,14 +49,16 @@ El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la secci�
 ** /*Rango*/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
-| *Rango*  | *Edad* | *Salud* | *Voluntad* |
-|----------+--------+---------+------------|
-| Cascabel | 5~11   |       5 |          2 |
-| Rojo     | 12~17  |       6 |          3 |
-| Azul     | 18~25  |       5 |          4 |
-| Lunar    | 21~50  |       4 |          4 |
-| Negro    | 31~60  |       4 |          5 |
-| Blanco   | 41~60  |       5 |          6 |
+| *Silbato* | *Edad* | *Salud* | *Voluntad* |
+|-----------+--------+---------+------------|
+| Cascabel  | 5~11   |       5 |          2 |
+| Rojo      | 12~17  |       6 |          3 |
+| Azul      | 18~25  |       5 |          4 |
+| Lunar     | 21~50  |       4 |          4 |
+| Negro     | 31~60  |       4 |          5 |
+| Blanco    | 41~60  |       5 |          6 |
+
+Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen como Silbatos Rojos o Azules, o incluso Lunares si son experimentados.
 
 * *Bestias y criaturas*
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
@@ -88,7 +90,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 ** /*Quinta capa*/
 *** Desert hydra
-*** Stingerhead
+*** Stingerhead (Kasshogashira)
 *** Hamashirama
 
 ** /*Sexta capa*/
@@ -137,8 +139,14 @@ Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando 
 
 En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
 
-** /*Bendición y Maldición*/
-[...]
+** /*Bendición*/
+La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos persona con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de /Narehate/.
+
+* *Exploración*
+El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
+
+** /*Iluminación*/
+La falta de una fuente de luz durante un conflicto que use Salud como base implica un -1 a tu disposición inicial.
 
 * *Habilidades*
 Las nuevas habilidades introducidas, junto con sus usos y factores, son las siguientes:
@@ -148,6 +156,9 @@ Referente a la capacidad de detectar el peculiaridades en el flujo de Conscienci
 
 * *Rasgos*
 Los nuevos rasgos introducidos y sus cualidades son los siguientes:
+
+** /*Tocado por el Abismo*/
+Tus viajes te han pasado factura. Has tenido cambios fisiológicos, sean menores (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca), mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable), u otros síntoma de una larga exposición a la Maldición del Abismo.
 
 ** /*Narehate*/
 "/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
@@ -162,4 +173,17 @@ El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ning
 Para añadir algo de drama, añadiré una condición a las ya existentes:
 
 ** /*Envenenado*/
-Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra flora o criaturas del Abismo. Es una condición muy peligrosa para un jugador, ya que puede ser letal si no es atendida a tiempo. [...]
+Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra flora o criaturas del Abismo. Es una condición muy peligrosa para un jugador, ya que puede ser letal si no es atendida a tiempo.
+
+| *d6* | *Lugar afectado* |
+|------+------------------|
+|    1 | Cabeza           |
+|    2 | Torso            |
+|    3 | Pierna derecha   |
+|    4 | Pierna izquierda |
+|    5 | Brazo derecho    |
+|    6 | Brazo izquierdo  |
+
+Sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada minuto después de quedar envenenado, debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran.
+
+El envenenamiento no se puede eliminar y sufrir efectos permanentes como con las condiciones Herido y Enfermo. Debe tratarse a tiempo o mueres.
