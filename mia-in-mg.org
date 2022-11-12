@@ -24,7 +24,7 @@ De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la 
 ** /*Círculos*/
 Dado que la mayoría de los niveles del Abismo no tienen población humana alguna, el uso de esta aptitud se limita a zonas pobladas, o bien zonas donde sabemos que podemos encontrar a un humano.
 
-Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero.
+Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero. Tambén lo podemos obtener usando nuestro Silbato para llamar a otros exploradores dentro del Abismo.
 
 ** /*Recursos*/
 En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su poder adquisitivo. Esta noción pierde el sentido en nuestro escenario una vez se encuentra en niveles inferiores del Abismo (exceptuando en la aldea de la sexta capa, Ilblu, pero incluso en este escenario la idea que presento puede ser válida).
@@ -36,13 +36,15 @@ He aquí la piedra angular del juego. La Naturaleza de un personaje humano repre
 
 Descrita de esta forma, una alta Naturaleza indica un alma fuerte, muy humana, mientras que una baja Naturaleza indica una mayor conexión con el Abismo y las fuerzas corruptas que se bañan en su inexpugnable seno.
 
+Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos,
+
 *** Aspectos
 En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisión. Quizás una buena opción sean Construir, Curiosidad, Cazar y Astuto.
 
 Puesto que esta es solo una suposición, recomiendo encarecidamente que a la hora de sentarse a jugar el GM y los jugadores decidan los aspectos que crean más adecuados.
 
 *** Variación
-Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo.
+Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo. Una buena comida y un sueño reparador con tus compañeros permite recuperar un punto de Naturaleza deteriorada.
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
@@ -83,10 +85,10 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *** Amakagame
 
 ** /*Cuarta capa*/
-*** Orbed Piercer (Tamaugachi)
+*** Orbe Perforador (Tamaugachi)
 *** Subterranean Jungle Mosquito
 *** Onitsuchi
-*** Shroombear (Takeguma)
+*** Oso Seta (Takeguma)
 
 ** /*Quinta capa*/
 *** Desert hydra
@@ -140,19 +142,32 @@ Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando 
 En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
 
 ** /*Bendición*/
-La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos persona con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de /Narehate/.
+La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de /Narehate/.
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
 
 ** /*Iluminación*/
-La falta de una fuente de luz durante un conflicto que use Salud como base implica un -1 a tu disposición inicial.
+La falta de una fuente de luz durante un conflicto que use Salud como base en un lugar sin iluminación implica un -1 a tu disposición inicial.
 
 * *Habilidades*
 Las nuevas habilidades introducidas, junto con sus usos y factores, son las siguientes:
 
+** /*Escalador*/
+Un escalador se dedica a trepar y descender simas y paredes montañosas generalmente.
+
+Los hescaladores pueden recibir usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
+
+*** Factores para Escalador
+/Terreno/: algo empinado (45º~80º), vertical (90º), muy empinado (120º~150º), boca abajo (180º+).
+
+/Distancia/: 10 metros, 50 metros, 100 metros, 250 metros, 500 metros.
+
+*** Sugerencias de ayuda para Escalador
+Los Conocimientos apropiados.
+
 ** /*Conocimiento del flujo de Consciencias*/
-Referente a la capacidad de detectar el peculiaridades en el flujo de Consciencias. Es propio de Narehate y las criaturas y bestias nativas del Abismo.
+Referente a la capacidad de detectar peculiaridades en el flujo de Consciencias. Es propio de Narehate y las criaturas y bestias nativas del Abismo.
 
 * *Rasgos*
 Los nuevos rasgos introducidos y sus cualidades son los siguientes:
