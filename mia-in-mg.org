@@ -51,14 +51,14 @@ El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la secci�
 ** /*Rango*/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
-| *Silbato* | *Edad* | *Salud* | *Voluntad* |
-|-----------+--------+---------+------------|
-| Cascabel  | 5~11   |       5 |          2 |
-| Rojo      | 12~17  |       6 |          3 |
-| Azul      | 18~25  |       5 |          4 |
-| Lunar     | 21~50  |       4 |          4 |
-| Negro     | 31~60  |       4 |          5 |
-| Blanco    | 41~60  |       5 |          6 |
+| *Silbato* | *Edad* | *Salud* | *Voluntad* | *Profundidad permitida* |
+|-----------+--------+---------+------------+-------------------------|
+| Cascabel  | 5~11   |       5 |          2 | No descienden           |
+| Rojo      | 12~17  |       6 |          3 | 550m                    |
+| Azul      | 18~25  |       5 |          4 | 2600m                   |
+| Lunar     | 21~40  |       4 |          4 | 12000m                  |
+| Negro     | 31~60  |       4 |          5 | 13000m                  |
+| Blanco    | 41~60  |       5 |          6 | 15500m o más            |
 
 Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen como Silbatos Rojos o Azules, o incluso Lunares si son experimentados.
 
@@ -86,7 +86,6 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 ** /*Cuarta capa*/
 *** Orbe Perforador (Tamaugachi)
-*** Subterranean Jungle Mosquito
 *** Onitsuchi
 *** Oso Seta (Takeguma)
 
@@ -103,6 +102,16 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *** Misoujack
 *** Fuzosheppu
 *** Hermit Rat (Yadone)
+
+** /*Orden natural del Abismo conocido*/
+[...]
+
+| 6 | Dragón Molusco                                                            |
+| 5 | Orbe Perforador, Amaranthine-Deceptor, Stingerhead                        |
+| 4 | Sierpe Carmesí, Madokajack, Fuzosheppu                                    |
+| 3 | Ottobas, Corpse Weeper, Silkfang, Inbyo                                   |
+| 2 | Humano (adulto), Narehate (bendecidos), Hammerbeak, Amakagame             |
+| 1 | Humano (niño), Narehate, Neritantan, Meinastoirim, Demonfish, Hamashirama |
 
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
@@ -189,15 +198,6 @@ Para añadir algo de drama, añadiré una condición a las ya existentes:
 
 ** /*Envenenado*/
 Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra flora o criaturas del Abismo. Es una condición muy peligrosa para un jugador, ya que puede ser letal si no es atendida a tiempo.
-
-| *d6* | *Lugar afectado* |
-|------+------------------|
-|    1 | Cabeza           |
-|    2 | Torso            |
-|    3 | Pierna derecha   |
-|    4 | Pierna izquierda |
-|    5 | Brazo derecho    |
-|    6 | Brazo izquierdo  |
 
 Sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada minuto después de quedar envenenado, debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran.
 
