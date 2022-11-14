@@ -201,6 +201,6 @@ Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra
 
 Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada cinco minutos después de quedar envenenado, debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran restando 1D más en las pruebas y -1 más a la disposición de conflictos. Si la cantidad restada a las pruebas supera tu valor actual de Voluntad, entras en un estado catatónico. Si supera tu valor actual de Salud, mueres.
 
-De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.
+De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob.3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.
 
  | /Nanachi pretende utilizar su habilidad Sanador 4 para ayudar a Riko con su envenenamiento. Usando como ayuda su Conocimiento sobre venenos 2 y los suministros que tenía guardados (setas de Osos Seta), obtiene +2D a tu prueba. Al tirar, logra 4 éxitos y consigue detener el envenenamiento, eliminando la condición de Riko./     |
