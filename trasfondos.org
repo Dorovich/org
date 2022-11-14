@@ -2,8 +2,6 @@
 #+author: Dorovich
 #+options: \n:t num:nil timestamp:nil
 
-[[./imgs/dog.jpg]]
-
 * *Caballera de la Seda*
 Fuiste nombrada escudera por la Reina cuando eras una joven oruga. Ahora, bajo sus órdenes, realizas peculiares encargos secretos en el exatranjero. Todo sea por el linaje.
 
