@@ -48,6 +48,12 @@ Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
+*** Valor inicial
+Para determinar tu valor inicial de la Naturaleza, usa las siguientes preguntas como guía:
+
+| ¿Sientes gran admiración hacia los Silbatos Blancos?     | [...] |
+| ¿Te aterran las historias de los exploradores veteranos? | [...] |
+
 ** /Rango/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
@@ -61,6 +67,8 @@ Existen distintos rangos, de igual forma que en la Guardia de los ratones. Ésto
 | Blanco    | 41~60  |       5 |          6 | 15500m o más            |
 
 Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen como Silbatos Rojos o Azules, o incluso Lunares si son experimentados.
+
+| /El jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad. Tiene 6 puntos de Salud y 3 de Voluntad./ |
 
 * *Bestias y criaturas*
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
