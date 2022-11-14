@@ -1,3 +1,5 @@
 #+title: Archivos .org
 
+#+attr_html: :width 600
+#+attr_org: :width 600
 [[./imgs/dog.jpg]]
