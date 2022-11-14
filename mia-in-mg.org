@@ -203,4 +203,4 @@ Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de 
 
 De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.
 
-/Nanachi pretende utilizar su habilidad Sanador 4 para ayudar a Riko con su envenenamiento. Usando como ayuda su Conocimiento sobre venenos 2 y los suministros que tenía guardados, obtiene +2D a tu prueba. Al tirar, logra 4 éxitos y consigue detener el envenenamiento, eliminando la condición de Riko./
+ | /Nanachi pretende utilizar su habilidad Sanador 4 para ayudar a Riko con su envenenamiento. Usando como ayuda su Conocimiento sobre venenos 2 y los suministros que tenía guardados, obtiene +2D a tu prueba. Al tirar, logra 4 éxitos y consigue detener el envenenamiento, eliminando la condición de Riko./ |
