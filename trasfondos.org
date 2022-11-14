@@ -44,6 +44,7 @@ Estas maldito. Cuando crees tu personaje tira una vez en esta tabla:
 |    5 | Eres incapaz de orientarte, ni siquiera sabes distinguir izquierda de derecha.                                  |
 |    6 | Rompes una ley cada vez que entras en un asentamiento. Siempre hay prueba de ello, de alguna manera.            |
 
+#+attr_html: :width 300
 [[./imgs/bannerbearer.jpg]]
 
 * ~ Material extra ~
