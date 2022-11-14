@@ -15,23 +15,23 @@ Por ahora, consideraré que todos los personajes jugadores son humanos de Orth p
 
 Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.
 
-** /*Salud*/
+** /Salud/
 En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
 
-** /*Voluntad*/
+** /Voluntad/
 De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental y perspicacia de un personaje.
 
-** /*Círculos*/
+** /Círculos/
 Dado que la mayoría de los niveles del Abismo no tienen población humana alguna, el uso de esta aptitud se limita a zonas pobladas, o bien zonas donde sabemos que podemos encontrar a un humano.
 
 Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero. Tambén lo podemos obtener usando nuestro Silbato para llamar a otros exploradores dentro del Abismo.
 
-** /*Recursos*/
+** /Recursos/
 En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su poder adquisitivo. Esta noción pierde el sentido en nuestro escenario una vez se encuentra en niveles inferiores del Abismo (exceptuando en la aldea de la sexta capa, Ilblu, pero incluso en este escenario la idea que presento puede ser válida).
 
 Por tanto, diremos que los Recursos de cierto personaje son la medida en que éste está bien equipado, preparado para las ocurrencias del Abismo, y su capacidad de usar su entorno en su beneficio.
 
-** /*Naturaleza*/
+** /Naturaleza/
 He aquí la piedra angular del juego. La Naturaleza de un personaje humano representa su /humanidad/, es decir, cómo en sintonía está con las habilidades y tendencias propias de un humano, en este caso.
 
 Descrita de esta forma, una alta Naturaleza indica un alma fuerte, muy humana, mientras que una baja Naturaleza indica una mayor conexión con el Abismo y las fuerzas corruptas que se bañan en su inexpugnable seno.
@@ -48,7 +48,7 @@ Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
-** /*Rango*/
+** /Rango/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
 | *Silbato* | *Edad* | *Salud* | *Voluntad* | *Profundidad permitida* |
@@ -65,36 +65,36 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 * *Bestias y criaturas*
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
 
-** /*Primera capa*/
+** /Primera capa/
 *** Silkfang (Gokoge)
 *** Hammerbeak
 *** Demonfish (Gankimasu)
 
-** /*Segunda capa*/
+** /Segunda capa/
 *** Corpse Weeper (Nakikabane)
 *** Inbyo
 *** Ottobas (Ottobasu)
 *** Wyvern
 *** Rohana
 
-** /*Tercera capa*/
+** /Tercera capa/
 *** Madokajack
 *** Sierpe Carmesí (Benikuchinawa)
 *** Neritantan
 *** Onitsuchi
 *** Amakagame
 
-** /*Cuarta capa*/
+** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
 *** Onitsuchi
 *** Oso Seta (Takeguma)
 
-** /*Quinta capa*/
+** /Quinta capa/
 *** Desert hydra
 *** Stingerhead (Kasshogashira)
 *** Hamashirama
 
-** /*Sexta capa*/
+** /Sexta capa/
 *** Meinastoirim
 *** Emperorshell
 *** Amaranthine-Deceptor (Kuongatari)
@@ -103,7 +103,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *** Fuzosheppu
 *** Hermit Rat (Yadone)
 
-** /*Orden natural del Abismo conocido*/
+** /Orden natural del Abismo conocido/
 [...]
 
 | 6 | Dragón Molusco                                                            |
@@ -116,7 +116,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
 
-** /*Capas*/
+** /Capas/
 El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
 
 *** 1ª - *Borde del Abismo* (0~1350m)
@@ -140,29 +140,29 @@ El ascenso por las diferentes capas tiene efectos adversos para los personajes. 
 *** 7ª - *El vórtice final* (15000~?????m)
  Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
 
-** /*Distorsión temporal*/
+** /Distorsión temporal/
 Se dice que hay alún tipo de distorsión del tiempo dentro del Abismo, aunque no se sabe con certeza si es real o una mera sensación de los exploradores. La Silbato Blanco Ozen afirma que el efecto se vuelve extremo a partir de la quinta capa de las profundidades, por experiencia propia: ella descendió lo que supuso fueron un par de semanas, pero en la superfície habían pasado meses.
 
 Este efecto es opcional. Si escoges usarlo en vuestra partida, considera que una hora en la superfície equivale a la mitad del número de la capa actual de los jugadores, por ejemplo: una hora en la superfície son 2 horas en la 4ª capa.
 
-** /*Naturaleza 0, Naturaleza 7*/
+** /Naturaleza 0, Naturaleza 7/
 Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.
 
 En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
 
-** /*Bendición*/
+** /Bendición/
 La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de /Narehate/.
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
 
-** /*Iluminación*/
+** /Iluminación/
 La falta de una fuente de luz durante un conflicto que use Salud como base en un lugar sin iluminación implica un -1 a tu disposición inicial.
 
 * *Habilidades*
 Las nuevas habilidades introducidas, junto con sus usos y factores, son las siguientes:
 
-** /*Escalador*/
+** /Escalador/
 Un escalador se dedica a trepar y descender simas y paredes montañosas generalmente.
 
 Los hescaladores pueden recibir usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
@@ -175,16 +175,16 @@ Los hescaladores pueden recibir usar mapas creados por cartógrafos y herramient
 *** Sugerencias de ayuda para Escalador
 Los Conocimientos apropiados.
 
-** /*Conocimiento del flujo de Consciencias*/
+** /Conocimiento del flujo de Consciencias/
 Referente a la capacidad de detectar peculiaridades en el flujo de Consciencias. Es propio de Narehate y las criaturas y bestias nativas del Abismo.
 
 * *Rasgos*
 Los nuevos rasgos introducidos y sus cualidades son los siguientes:
 
-** /*Tocado por el Abismo*/
+** /Tocado por el Abismo/
 Tus viajes te han pasado factura. Has tenido cambios fisiológicos, sean menores (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca), mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable), u otros síntoma de una larga exposición a la Maldición del Abismo.
 
-** /*Narehate*/
+** /Narehate/
 "/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
 
 Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 3. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
