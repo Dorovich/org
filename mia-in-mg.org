@@ -15,7 +15,7 @@ Debo advertir que haré referencia a eventos, escenarios y personajes que hacen 
 [[./imgs/The-Abyss.png]]
 
 * *Personajes*
-Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso (¿y quizas como Aubade también...?).
+Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso.
 
 Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.
 
@@ -55,8 +55,12 @@ El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la secci�
 *** Valor inicial
 Para determinar tu valor inicial de la Naturaleza, usa las siguientes preguntas como guía:
 
-| ¿Sientes gran admiración hacia los Silbatos Blancos?     | [...] |
-| ¿Te aterran las historias de los exploradores veteranos? | [...] |
+/¿Sientes gran admiración hacia los Silbatos Blancos?/
+Si tu respuesta es que sí,
+
+/¿Te aterran las historias de los exploradores veteranos?/
+
+/¿Descenderías más de lo debido si tuvieras la oportunidad?/
 
 ** /Rango/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
@@ -78,7 +82,7 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
 
 ** /Primera capa/
-*** Silkfang (Gokoge)
+*** Colmillo de Seda (Gokoge)
 *** Hammerbeak
 *** Demonfish (Gankimasu)
 
@@ -98,12 +102,16 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
+Naturaleza 10
+
 *** Onitsuchi
 *** Oso Seta (Takeguma)
 
 ** /Quinta capa/
 *** Desert hydra
 *** Stingerhead (Kasshogashira)
+Naturaleza 8
+
 *** Hamashirama
 
 ** /Sexta capa/
@@ -111,6 +119,8 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *** Emperorshell
 *** Amaranthine-Deceptor (Kuongatari)
 *** Dragón Molusco (Ryuusazai)
+Naturaleza 12
+
 *** Misoujack
 *** Fuzosheppu
 *** Hermit Rat (Yadone)
@@ -121,7 +131,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 | 6 | Dragón Molusco                                                            |
 | 5 | Orbe Perforador, Amaranthine-Deceptor, Stingerhead                        |
 | 4 | Sierpe Carmesí, Madokajack, Fuzosheppu                                    |
-| 3 | Ottobas, Corpse Weeper, Silkfang, Inbyo                                   |
+| 3 | Ottobas, Corpse Weeper, Colmillo de Seda, Inbyo                                   |
 | 2 | Humano (adulto), Narehate (bendecidos), Hammerbeak, Amakagame             |
 | 1 | Humano (niño), Narehate, Neritantan, Meinastoirim, Demonfish, Hamashirama |
 
@@ -221,6 +231,15 @@ Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido 
 
 El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
+** /Ciudadano de la Ciudad Dorada/
+Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Para los más conocedores de los secretos prohibidos del Abismo, se les asigna la categoría de reliquia "Aubade", es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.
+
+Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m. Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
+
+El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido asó desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
+
+No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al aquipo.
+
 * *Condiciones*
 Para añadir algo de drama, añadiré una condición a las ya existentes:
 
@@ -232,3 +251,6 @@ Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de 
 De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob.3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.
 
  | /Nanachi pretende utilizar su habilidad Sanador 4 para ayudar a Riko con su envenenamiento. Usando como ayuda su Conocimiento sobre venenos 2 (+1D) y los suministros que tenía guardados (setas de Osos Seta, +1D), obtiene +2D a su prueba. Tiene en total 6D. Al tirar logra 4 éxitos, y como eliminar el envenenamiento es Ob.3, consigue eliminar la condición de Riko./ |
+
+* *Conflictos (ejemplos)*
+| /Al llegar a la cuarta capa, Riko y Reg entran en el territorio de un Orbe Perforador, que les planta cara. El GM declara un conflicto y se deciden los objetivos. El Orbe Perforador pretende asesinar a los intrusos, mientras que Reg y Riko pretenden huir a una zona segura./ |
