@@ -88,6 +88,11 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 ** /Segunda capa/
 *** Corpse Weeper (Nakikabane)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Corpse_Weeper_Anime_Square.png]]
+
 *** Inbyo
 *** Ottobas (Ottobasu)
 *** Wyvern
@@ -96,12 +101,27 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Tercera capa/
 *** Madokajack
 *** Sierpe Carmesí (Benikuchinawa)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Crimson_Splitjaw_Anime_Square.png]]
+
 *** Neritantan
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Neritantan_Anime_Square.png]]
+
 *** Onitsuchi
 *** Amakagame
 
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Orb_Piercer_Square.png]]
+
 Naturaleza 10
 
 *** Onitsuchi
@@ -110,6 +130,11 @@ Naturaleza 10
 ** /Quinta capa/
 *** Desert hydra
 *** Stingerhead (Kasshogashira)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Stingerhead_Anime_Square.png]]
+
 Naturaleza 8
 
 *** Hamashirama
@@ -118,7 +143,17 @@ Naturaleza 8
 *** Meinastoirim
 *** Emperorshell
 *** Amaranthine-Deceptor (Kuongatari)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Amaranthine-Deceptor_Anime.png]]
+
 *** Dragón Molusco (Ryuusazai)
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Turbinid-Dragon_Anime_Square.png]]
+
 Naturaleza 12
 
 *** Misoujack
