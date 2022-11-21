@@ -53,13 +53,22 @@ Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba 
 | Azul      |                    3 |
 | Lunar     |                    3 |
 | Negro     |                    4 |
-| Blanco    |                    5 |
+| Blanco    |                    4 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Círculos iniciales fluctúan:
 
-/¿?/
-/¿?/
-/¿?/
+/¿Es sociable tu personaje? ¿Tiene muchos amigos o los hace con facilidad?/
++ Si es así, aumenta tus Círculos en 1.
+/¿Tiene lazos fuertes con el Gremio de Exploradores? Quizás sea tradición en tu familia ser explorador, o binen puede que tengas aliados en él./
++ Aumenta tus Círculos en 1 si tu respuesta es afirmativa.
+/¿Ha logrado tu personaje alguna hazaña memorable? ¿Se ha ganado una reputación?/
++ Si la respuesta es sí, aumenta tus Círculos en 1.
+/¿Tiene tu personaje enemigos poderosos en el Gremio de Exploradores?/
++ Si es que sí, disminuye tus Círculos en 1.
+/¿Ha sido condenado por algun crimen?/
++ Decrementa tus Círculos en 1 si la respuesta es sí.
+/¿Es tu personaje duro, solitario y distante?/
++ Si es que sí, reduce tus Círculos en 1.
 
 ** /Recursos/
 En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su poder adquisitivo. Esta noción pierde el sentido en nuestro escenario una vez se encuentra en niveles inferiores del Abismo (exceptuando en la aldea de la sexta capa, Ilblu, pero incluso en este escenario la idea que presento puede ser válida).
@@ -73,7 +82,7 @@ Por tanto, diremos que los Recursos de cierto personaje son la medida en que és
 | Azul      |                   3 |
 | Lunar     |                   4 |
 | Negro     |                   5 |
-| Blanco    |                   6 |
+| Blanco    |                   5 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Recursos iniciales fluctúan:
 
@@ -95,10 +104,14 @@ El Acero es un atributo que representa los nervios de tu personaje. Se pone a pr
 
 Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
 
-/¿Eres (o fuiste) un soldado, bandido, o explorador?/ Si es así, añade 1 a tu Acero.
-/¿Has matado o asesinado con tus propias manos?/ Aumenta en 1 tu Acero si lo has hecho más de una vez.
-/¿Has vivido una vida libre de violencia y dolor?/ Si es así, reduce tu Acero en 1.
-/¿Has sido educado en un entorno competitivo?/ Incrementa tu Acero en 1 si la respuesta es sí.
+/¿Tu personaje es (o fue) un soldado, bandido, o explorador?/
++ Si es así, añade 1 a tu Acero.
+/¿Ha matado o asesinado con sus propias manos?/
++ Aumenta en 1 tu Acero si lo has hecho más de una vez. No puedes escoger el rasgo Compasivo.
+/¿Ha vivido una vida libre de violencia y dolor?/
++ Si es así, reduce tu Acero en 1.
+/¿Ha sido educado en un entorno competitivo?/
++ Incrementa tu Acero en 1 si la respuesta es sí.
 
 Rasgos como Valiente o Intrépido pueden darte ventaja en estas pruebas, mientras que Temeroso o Reflexivo no serán de gran ayuda.
 
