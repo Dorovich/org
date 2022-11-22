@@ -340,7 +340,7 @@ Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciud
 
 El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
-No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al aquipo.
+No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al equipo.
 
 * *Condiciones*
 Para añadir algo de drama, añadiré una condición a las ya existentes:
