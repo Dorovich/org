@@ -156,8 +156,8 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Segunda capa/
 *** Corpse Weeper (Nakikabane)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Corpse_Weeper_Anime_Square.png]]
 
 *** Inbyo
@@ -169,14 +169,14 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *** Madokajack
 *** Sierpe Carmesí (Benikuchinawa)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Crimson_Splitjaw_Anime_Square.png]]
 
 *** Neritantan
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Neritantan_Anime_Square.png]]
 
 *** Onitsuchi
@@ -185,11 +185,11 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Orb_Piercer_Square.png]]
 
-Naturaleza 10
+Naturaleza (Orbe Perforador) 10
 
 *** Onitsuchi
 *** Oso Seta (Takeguma)
@@ -198,11 +198,11 @@ Naturaleza 10
 *** Desert hydra
 *** Stingerhead (Kasshogashira)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Stingerhead_Anime_Square.png]]
 
-Naturaleza 8
+Naturaleza (Stingerhead) 8
 
 *** Hamashirama
 
@@ -211,17 +211,17 @@ Naturaleza 8
 *** Emperorshell
 *** Amaranthine-Deceptor (Kuongatari)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Amaranthine-Deceptor_Anime.png]]
 
 *** Dragón Molusco (Ryuusazai)
 
-#+attr_html: :width 600
-#+attr_org: :width 600
+#+attr_html: :width 400
+#+attr_org: :width 400
 [[./imgs/Turbinid-Dragon_Anime_Square.png]]
 
-Naturaleza 12
+Naturaleza (Dragón Molusco) 12
 
 *** Misoujack
 *** Fuzosheppu
@@ -245,37 +245,37 @@ Las bestias no son el único peligro que asola a los humanos en el inframundo. L
 ** /Capas/
 El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
 
-*** 1ª - *Borde del Abismo* (0~1350m)
+*** Primera capa - *Borde del Abismo* (0~1350m)
  No hay pérdida de Naturaleza. Prueba de Salud Ob.2 o quedas mareado (como Cansado).
 
  [[./imgs/1st-Layer.png]]
 
-*** 2ª - *Bosque de la tentación* (1350~2600m)
+*** Segunda capa - *Bosque de la tentación* (1350~2600m)
  Tu Naturaleza se deteriora en 1 punto. Prueba de Salud Ob.3 o sufres náuseas y dolores de cabeza (como Cansado y Enfadado).
 
  [[./imgs/2nd-Layer.png]]
 
-*** 3ª - *La gran falla* (2600~7000m)
+*** Tercera capa - *La gran falla* (2600~7000m)
  Tu Naturaleza se deteriora en 2 puntos. Prueba de Voluntad Ob.3 o sufres vértigo y alucinaciones (como Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante veinte minutos).
 
  [[./imgs/3rd-Layer.png]]
 
-*** 4ª - *Cáliz de gigantes* (7000~12000m)
+*** Cuarta capa - *Cáliz de gigantes* (7000~12000m)
  Deterioro de 3 puntos de Naturaleza. Prueba de Salud Ob.4 o sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (como Cansado y Herido). Si el margen de fallo fue de 3 o más, quedas inconsciente.
 
  [[./imgs/4th-Layer.png]]
 
-*** 5ª - *Mar de cadáveres* (12000~13000m)
+*** Quinta capa - *Mar de cadáveres* (12000~13000m)
  Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.
 
  [[./imgs/5th-Layer.png]]
 
-*** 6ª - *Capital sin retorno* (13000~15500m)
+*** Sexta capa - *Capital sin retorno* (13000~15500m)
  Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).
 
  [[./imgs/6th-Layer.png]]
 
-*** 7ª - *El vórtice final* (15000~?????m)
+*** Séptima capa - *El vórtice final* (15000~?????m)
  Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
 
  [[./imgs/7th-Layer-Sketch.png]]
