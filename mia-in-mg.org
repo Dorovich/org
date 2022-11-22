@@ -338,7 +338,7 @@ Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad D
 
 Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m. Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
 
-El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido asó desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
+El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
 No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al aquipo.
 
