@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Made in Abyss - el juego de rol</title>
+<meta name="author" content="Dorovich" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Made in Abyss - el juego de rol
+<br />
+<span class="subtitle">Usando el sistema Burning Wheel (Mouse Guard RPG)</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3170234">1. <b>Prefacio</b></a></li>
+<li><a href="#orgbb68747">2. <b>Personajes</b></a>
+<ul>
+<li><a href="#orgfe30ff3">2.1. <i>Salud</i></a></li>
+<li><a href="#org19f85f3">2.2. <i>Voluntad</i></a></li>
+<li><a href="#org4e24b32">2.3. <i>Rango</i></a></li>
+<li><a href="#org8cffec1">2.4. <i>Círculos</i></a></li>
+<li><a href="#org56fb40b">2.5. <i>Recursos</i></a></li>
+<li><a href="#org98b27dc">2.6. <i>Acero</i></a>
+<ul>
+<li><a href="#org340bc68">2.6.1. Pruebas de Acero fallidas</a></li>
+</ul>
+</li>
+<li><a href="#orgdbbbe09">2.7. <i>Naturaleza</i></a>
+<ul>
+<li><a href="#org2aeea82">2.7.1. Aspectos</a></li>
+<li><a href="#orgea4260a">2.7.2. Variación</a></li>
+<li><a href="#org09a853b">2.7.3. Valor inicial</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf920006">3. <b>Bestias y criaturas</b></a>
+<ul>
+<li><a href="#org18aa534">3.1. <i>Primera capa</i></a>
+<ul>
+<li><a href="#orgbca18a5">3.1.1. Colmillo de Seda (Gokoge)</a></li>
+<li><a href="#org130a860">3.1.2. Pico Martillo</a></li>
+<li><a href="#orgae09495">3.1.3. Trucha Demoníaca (Gankimasu)</a></li>
+</ul>
+</li>
+<li><a href="#org9570f6a">3.2. <i>Segunda capa</i></a>
+<ul>
+<li><a href="#orgaa8ddbe">3.2.1. Cadáver Llorón (Nakikabane)</a></li>
+<li><a href="#org2c01626">3.2.2. Inbyo</a></li>
+<li><a href="#org474e05c">3.2.3. Ottobas (Ottobasu)</a></li>
+<li><a href="#org0653cca">3.2.4. Wyvern</a></li>
+<li><a href="#org003b48b">3.2.5. Rohana</a></li>
+</ul>
+</li>
+<li><a href="#orgecd1562">3.3. <i>Tercera capa</i></a>
+<ul>
+<li><a href="#org8f2794d">3.3.1. Madokajack</a></li>
+<li><a href="#orgdc4fb87">3.3.2. Sierpe Carmesí (Benikuchinawa)</a></li>
+<li><a href="#org9aa8e7f">3.3.3. Neritantan</a></li>
+<li><a href="#orge51f0a0">3.3.4. Amakagame</a></li>
+</ul>
+</li>
+<li><a href="#orgc0548e6">3.4. <i>Cuarta capa</i></a>
+<ul>
+<li><a href="#org426167f">3.4.1. Orbe Perforador (Tamaugachi)</a></li>
+<li><a href="#orgca083cb">3.4.2. Onitsuchi</a></li>
+<li><a href="#org78c397a">3.4.3. Oso Seta (Takeguma)</a></li>
+</ul>
+</li>
+<li><a href="#org54d7202">3.5. <i>Quinta capa</i></a>
+<ul>
+<li><a href="#org037ad66">3.5.1. Hidra del Desierto (Kasshogashira)</a></li>
+<li><a href="#orgbaa9897">3.5.2. Hamashirama</a></li>
+</ul>
+</li>
+<li><a href="#org2ddc823">3.6. <i>Sexta capa</i></a>
+<ul>
+<li><a href="#org6ed3683">3.6.1. Meinastoirim</a></li>
+<li><a href="#orgf93e801">3.6.2. Emperorshell</a></li>
+<li><a href="#org12e3c2c">3.6.3. Kuongatari</a></li>
+<li><a href="#orgd73f7f1">3.6.4. Dragón Molusco (Ryuusazai)</a></li>
+<li><a href="#org5fba748">3.6.5. Misoujack</a></li>
+<li><a href="#org0d04554">3.6.6. Fuzosheppu</a></li>
+<li><a href="#org274553f">3.6.7. Rata Hermitaña (Yadone)</a></li>
+</ul>
+</li>
+<li><a href="#org519fd0e">3.7. <i>Otras criaturas</i></a>
+<ul>
+<li><a href="#org8573367">3.7.1. Narehate (Maldito)</a></li>
+</ul>
+</li>
+<li><a href="#orga64d6b4">3.8. <i>Orden natural del Abismo conocido</i></a></li>
+</ul>
+</li>
+<li><a href="#org5bf7388">4. <b>Maldición del Abismo</b></a>
+<ul>
+<li><a href="#orgbc6dbd3">4.1. <i>Capas</i></a>
+<ul>
+<li><a href="#org1fdb768">4.1.1. Primera capa - <b>Borde del Abismo</b> (0~1350m)</a></li>
+<li><a href="#orgce9eb91">4.1.2. Segunda capa - <b>Bosque de la tentación</b> (1350~2600m)</a></li>
+<li><a href="#org39b0d21">4.1.3. Tercera capa - <b>La gran falla</b> (2600~7000m)</a></li>
+<li><a href="#orga7cd03f">4.1.4. Cuarta capa - <b>Cáliz de gigantes</b> (7000~12000m)</a></li>
+<li><a href="#org8be467c">4.1.5. Quinta capa - <b>Mar de cadáveres</b> (12000~13000m)</a></li>
+<li><a href="#org011aa05">4.1.6. Sexta capa - <b>Capital sin retorno</b> (13000~15500m)</a></li>
+<li><a href="#org794368f">4.1.7. Séptima capa - <b>El vórtice final</b> (15000~?????m)</a></li>
+</ul>
+</li>
+<li><a href="#org1496267">4.2. <i>Distorsión temporal</i></a></li>
+<li><a href="#org077ceee">4.3. <i>Naturaleza 0, Naturaleza 7</i></a></li>
+<li><a href="#org74db980">4.4. <i>Bendición</i></a></li>
+</ul>
+</li>
+<li><a href="#org388521d">5. <b>Exploración</b></a>
+<ul>
+<li><a href="#orgd6688e5">5.1. <i>Iluminación</i></a></li>
+</ul>
+</li>
+<li><a href="#org5762d5a">6. <b>Habilidades</b></a>
+<ul>
+<li><a href="#org70536ec">6.1. <i>Escalador</i></a>
+<ul>
+<li><a href="#org95b702f">6.1.1. Factores para Escalador</a></li>
+<li><a href="#orga0453f8">6.1.2. Sugerencias de ayuda para Escalador</a></li>
+</ul>
+</li>
+<li><a href="#org9d3856d">6.2. <i>Conocimiento del flujo de Consciencias</i></a></li>
+</ul>
+</li>
+<li><a href="#org2c7481e">7. <b>Rasgos</b></a>
+<ul>
+<li><a href="#orgf80905f">7.1. <i>Tocado por el Abismo</i></a></li>
+<li><a href="#org76ba62f">7.2. <i>Narehate</i></a></li>
+<li><a href="#org9b4aaba">7.3. <i>Ciudadano de la Ciudad Dorada</i></a></li>
+</ul>
+</li>
+<li><a href="#org4a9b5e2">8. <b>Condiciones</b></a>
+<ul>
+<li><a href="#org2bb9622">8.1. <i>Envenenado</i></a></li>
+</ul>
+</li>
+<li><a href="#org2622de2">9. <b>Conflictos (ejemplos)</b></a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3170234" class="outline-2">
+<h2 id="org3170234"><span class="section-number-2">1.</span> <b>Prefacio</b></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Si bien posiblemente no hay sistema que puede englobar y describir toda la riqueza que emana el Abismo de Akihito Tsukushi, bajo mi criterio considero que Burning Wheel -o mejor dicho, la modificación usada para el juego de rol de Mouse Guard- es la opción que conozco que mejor se adapta a lo que pretendo ilustrar en las aventuras de los jugadores en este desolador agujero.<br />
+</p>
+
+<p>
+Dicho esto, lo que pretenderé en este texto es dar las modificaciones necesarias al sistema de juego que he comentado para adaptarlo mecánicamente a las leyes por las que se rige el Abismo. Es decir, consideraré que ya se conoce el sistema Burning Wheel tal y como se introduce en el juego de rol de Mouse Guard.<br />
+</p>
+
+<p>
+Debo advertir que haré referencia a eventos, escenarios y personajes que hacen su aparición hasta el tomo 10 del manga, así que debes esperar <i>spoilers</i> si no has llegado hasta este punto de la trama.<br />
+</p>
+
+
+<div id="orgb90ef43" class="figure">
+<p><img src="./imgs/The-Abyss.png" alt="The-Abyss.png" width="800" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbb68747" class="outline-2">
+<h2 id="orgbb68747"><span class="section-number-2">2.</span> <b>Personajes</b></h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso.<br />
+</p>
+
+<p>
+Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.<br />
+</p>
+</div>
+
+<div id="outline-container-orgfe30ff3" class="outline-3">
+<h3 id="orgfe30ff3"><span class="section-number-3">2.1.</span> <i>Salud</i></h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org19f85f3" class="outline-3">
+<h3 id="org19f85f3"><span class="section-number-3">2.2.</span> <i>Voluntad</i></h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental y perspicacia de un personaje.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4e24b32" class="outline-3">
+<h3 id="org4e24b32"><span class="section-number-3">2.3.</span> <i>Rango</i></h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Silbato</b></th>
+<th scope="col" class="org-left"><b>Edad</b></th>
+<th scope="col" class="org-right"><b>Salud</b></th>
+<th scope="col" class="org-right"><b>Voluntad</b></th>
+<th scope="col" class="org-left"><b>Profundidad permitida</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Cascabel</td>
+<td class="org-left">5~11</td>
+<td class="org-right">5</td>
+<td class="org-right">2</td>
+<td class="org-left">No descienden</td>
+</tr>
+
+<tr>
+<td class="org-left">Rojo</td>
+<td class="org-left">12~17</td>
+<td class="org-right">6</td>
+<td class="org-right">3</td>
+<td class="org-left">550m</td>
+</tr>
+
+<tr>
+<td class="org-left">Azul</td>
+<td class="org-left">18~25</td>
+<td class="org-right">5</td>
+<td class="org-right">4</td>
+<td class="org-left">2600m</td>
+</tr>
+
+<tr>
+<td class="org-left">Lunar</td>
+<td class="org-left">21~40</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-left">12000m</td>
+</tr>
+
+<tr>
+<td class="org-left">Negro</td>
+<td class="org-left">31~60</td>
+<td class="org-right">4</td>
+<td class="org-right">5</td>
+<td class="org-left">13000m</td>
+</tr>
+
+<tr>
+<td class="org-left">Blanco</td>
+<td class="org-left">41~60</td>
+<td class="org-right">5</td>
+<td class="org-right">6</td>
+<td class="org-left">15500m o más</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen como Silbatos Rojos o Azules, o incluso Lunares si son experimentados.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><i>El jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad. Tiene 6 puntos de Salud y 3 de Voluntad.</i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org8cffec1" class="outline-3">
+<h3 id="org8cffec1"><span class="section-number-3">2.4.</span> <i>Círculos</i></h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Dado que la mayoría de los niveles del Abismo no tienen población humana alguna, el uso de esta aptitud se limita a zonas pobladas, o bien zonas donde sabemos que podemos encontrar a un humano.<br />
+</p>
+
+<p>
+Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero. Tambén lo podemos obtener usando nuestro Silbato para llamar a otros exploradores dentro del Abismo.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Silbato</b></th>
+<th scope="col" class="org-right"><b>Círculos iniciales</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Cascabel</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Rojo</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Azul</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Lunar</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Negro</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Blanco</td>
+<td class="org-right">4</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Además, todo jugador debe responder a las siguientes preguntas para ver si sus Círculos iniciales fluctúan:<br />
+</p>
+
+<p>
+<i>¿Es sociable tu personaje? ¿Tiene muchos amigos o los hace con facilidad?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si es así, aumenta tus Círculos en 1.<br /></li>
+</ul>
+<p>
+<i>¿Tiene lazos fuertes con el Gremio de Exploradores? Quizás sea tradición en tu familia ser explorador, o binen puede que tengas aliados en él.</i><br />
+</p>
+<ul class="org-ul">
+<li>Aumenta tus Círculos en 1 si tu respuesta es afirmativa.<br /></li>
+</ul>
+<p>
+<i>¿Ha logrado tu personaje alguna hazaña memorable? ¿Se ha ganado una reputación?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si la respuesta es sí, aumenta tus Círculos en 1.<br /></li>
+</ul>
+<p>
+<i>¿Tiene tu personaje enemigos poderosos en el Gremio de Exploradores?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si es que sí, disminuye tus Círculos en 1.<br /></li>
+</ul>
+<p>
+<i>¿Ha sido condenado por algun crimen?</i><br />
+</p>
+<ul class="org-ul">
+<li>Decrementa tus Círculos en 1 si la respuesta es sí.<br /></li>
+</ul>
+<p>
+<i>¿Es tu personaje duro, solitario y distante?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si es que sí, reduce tus Círculos en 1.<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org56fb40b" class="outline-3">
+<h3 id="org56fb40b"><span class="section-number-3">2.5.</span> <i>Recursos</i></h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su poder adquisitivo. Esta noción pierde el sentido en nuestro escenario una vez se encuentra en niveles inferiores del Abismo (exceptuando en la aldea de la sexta capa, Ilblu, pero incluso en este escenario la idea que presento puede ser válida).<br />
+</p>
+
+<p>
+Por tanto, diremos que los Recursos de cierto personaje son la medida en que éste está bien equipado, preparado para las ocurrencias del Abismo, y su capacidad de usar su entorno en su beneficio.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Silbato</b></th>
+<th scope="col" class="org-right"><b>Recuros iniciales</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Cascabel</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Rojo</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Azul</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Lunar</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Negro</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Blanco</td>
+<td class="org-right">5</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Además, todo jugador debe responder a las siguientes preguntas para ver si sus Recursos iniciales fluctúan:<br />
+</p>
+
+<p>
+<i>¿?</i><br />
+<i>¿?</i><br />
+<i>¿?</i><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org98b27dc" class="outline-3">
+<h3 id="org98b27dc"><span class="section-number-3">2.6.</span> <i>Acero</i></h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><b>Silbato</b></th>
+<th scope="col" class="org-right"><b>Acero inicial</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Cascabel</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Rojo</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Azul</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Lunar</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Negro</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Blanco</td>
+<td class="org-right">5</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Además, debe responder a las siguientes preguntas para ver si éste fluctúa:<br />
+</p>
+
+<p>
+<i>¿Tu personaje es (o fue) un soldado, bandido, o explorador?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si es así, añade 1 a tu Acero.<br /></li>
+</ul>
+<p>
+<i>¿Ha matado o asesinado con sus propias manos?</i><br />
+</p>
+<ul class="org-ul">
+<li>Aumenta en 1 tu Acero si lo has hecho más de una vez. No puedes escoger el rasgo Compasivo.<br /></li>
+</ul>
+<p>
+<i>¿Ha vivido una vida libre de violencia y dolor?</i><br />
+</p>
+<ul class="org-ul">
+<li>Si es así, reduce tu Acero en 1.<br /></li>
+</ul>
+<p>
+<i>¿Ha sido educado en un entorno competitivo?</i><br />
+</p>
+<ul class="org-ul">
+<li>Incrementa tu Acero en 1 si la respuesta es sí.<br /></li>
+</ul>
+
+<p>
+Rasgos como Valiente o Intrépido pueden darte ventaja en estas pruebas, mientras que Temeroso o Reflexivo no serán de gran ayuda.<br />
+</p>
+</div>
+
+<div id="outline-container-org340bc68" class="outline-4">
+<h4 id="org340bc68"><span class="section-number-4">2.6.1.</span> Pruebas de Acero fallidas</h4>
+<div class="outline-text-4" id="text-2-6-1">
+<p>
+Fallar en superar el Objetivo establecido por el GM en una prueba de Acero conlleva a una pérdida temporal del control de tu personaje. Puedes elegir si tu personaje opta por <b>Huir gritando</b>, quedarse <b>Pasmado</b>, <b>Desmayarse</b> o <b>Caer y enroscarse</b>.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdbbbe09" class="outline-3">
+<h3 id="orgdbbbe09"><span class="section-number-3">2.7.</span> <i>Naturaleza</i></h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+He aquí la piedra angular del juego. La Naturaleza de un personaje humano representa su <i>humanidad</i>, es decir, cómo en sintonía está con las habilidades y tendencias propias de un humano, en este caso.<br />
+</p>
+
+<p>
+Descrita de esta forma, una alta Naturaleza indica un alma fuerte, muy humana, mientras que una baja Naturaleza indica una mayor conexión con el Abismo y las fuerzas corruptas que se bañan en su inexpugnable seno.<br />
+</p>
+
+<p>
+Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos,<br />
+</p>
+</div>
+
+<div id="outline-container-org2aeea82" class="outline-4">
+<h4 id="org2aeea82"><span class="section-number-4">2.7.1.</span> Aspectos</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<p>
+En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisión. Quizás una buena opción sean Construir, Curiosidad, Cazar y Astuto.<br />
+</p>
+
+<p>
+Puesto que esta es solo una suposición, recomiendo encarecidamente que a la hora de sentarse a jugar el GM y los jugadores decidan los aspectos que crean más adecuados.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgea4260a" class="outline-4">
+<h4 id="orgea4260a"><span class="section-number-4">2.7.2.</span> Variación</h4>
+<div class="outline-text-4" id="text-2-7-2">
+<p>
+Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo. Una buena comida y un sueño reparador con tus compañeros permite recuperar un punto de Naturaleza deteriorada.<br />
+</p>
+
+<p>
+El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la <i>Maldición del Abismo</i>.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org09a853b" class="outline-4">
+<h4 id="org09a853b"><span class="section-number-4">2.7.3.</span> Valor inicial</h4>
+<div class="outline-text-4" id="text-2-7-3">
+<p>
+Para determinar tu valor inicial de la Naturaleza, usa las siguientes preguntas como guía:<br />
+</p>
+
+<p>
+<i>¿Sientes gran admiración hacia los Silbatos Blancos?</i><br />
+Si tu respuesta es que sí,<br />
+</p>
+
+<p>
+<i>¿Te aterran las historias de los exploradores veteranos?</i><br />
+</p>
+
+<p>
+<i>¿Descenderías más de lo debido si tuvieras la oportunidad?</i><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf920006" class="outline-2">
+<h2 id="orgf920006"><span class="section-number-2">3.</span> <b>Bestias y criaturas</b></h2>
+<div class="outline-text-2" id="text-3">
+<p>
+La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.<br />
+</p>
+
+
+<div id="orga92e9b2" class="figure">
+<p><img src="./imgs/criaturas.png" alt="criaturas.png" width="800" /><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org18aa534" class="outline-3">
+<h3 id="org18aa534"><span class="section-number-3">3.1.</span> <i>Primera capa</i></h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-orgbca18a5" class="outline-4">
+<h4 id="orgbca18a5"><span class="section-number-4">3.1.1.</span> Colmillo de Seda (Gokoge)</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+<b>Naturaleza Colmillo de Seda ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org130a860" class="outline-4">
+<h4 id="org130a860"><span class="section-number-4">3.1.2.</span> Pico Martillo</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<p>
+<b>Naturaleza Pico Martillo ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgae09495" class="outline-4">
+<h4 id="orgae09495"><span class="section-number-4">3.1.3.</span> Trucha Demoníaca (Gankimasu)</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<p>
+<b>Naturaleza Trucha Demoníaca ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org9570f6a" class="outline-3">
+<h3 id="org9570f6a"><span class="section-number-3">3.2.</span> <i>Segunda capa</i></h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-orgaa8ddbe" class="outline-4">
+<h4 id="orgaa8ddbe"><span class="section-number-4">3.2.1.</span> Cadáver Llorón (Nakikabane)</h4>
+<div class="outline-text-4" id="text-3-2-1">
+
+<div id="orgb17934b" class="figure">
+<p><img src="./imgs/Corpse_Weeper_Anime_Square.png" alt="Corpse_Weeper_Anime_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Cadáver Llorón ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2c01626" class="outline-4">
+<h4 id="org2c01626"><span class="section-number-4">3.2.2.</span> Inbyo</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+<b>Naturaleza Inbyo ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org474e05c" class="outline-4">
+<h4 id="org474e05c"><span class="section-number-4">3.2.3.</span> Ottobas (Ottobasu)</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+<b>Naturaleza Ottobas ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0653cca" class="outline-4">
+<h4 id="org0653cca"><span class="section-number-4">3.2.4.</span> Wyvern</h4>
+<div class="outline-text-4" id="text-3-2-4">
+<p>
+<b>Naturaleza Wyvern ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org003b48b" class="outline-4">
+<h4 id="org003b48b"><span class="section-number-4">3.2.5.</span> Rohana</h4>
+<div class="outline-text-4" id="text-3-2-5">
+<p>
+<b>Naturaleza Rohana ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgecd1562" class="outline-3">
+<h3 id="orgecd1562"><span class="section-number-3">3.3.</span> <i>Tercera capa</i></h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org8f2794d" class="outline-4">
+<h4 id="org8f2794d"><span class="section-number-4">3.3.1.</span> Madokajack</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+<b>Naturaleza Madokajack ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdc4fb87" class="outline-4">
+<h4 id="orgdc4fb87"><span class="section-number-4">3.3.2.</span> Sierpe Carmesí (Benikuchinawa)</h4>
+<div class="outline-text-4" id="text-3-3-2">
+
+<div id="org72f5eee" class="figure">
+<p><img src="./imgs/Crimson_Splitjaw_Anime_Square.png" alt="Crimson_Splitjaw_Anime_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Sierpe Carmesí ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9aa8e7f" class="outline-4">
+<h4 id="org9aa8e7f"><span class="section-number-4">3.3.3.</span> Neritantan</h4>
+<div class="outline-text-4" id="text-3-3-3">
+
+<div id="orgb7c7cb8" class="figure">
+<p><img src="./imgs/Neritantan_Anime_Square.png" alt="Neritantan_Anime_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Neritantan 2</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge51f0a0" class="outline-4">
+<h4 id="orge51f0a0"><span class="section-number-4">3.3.4.</span> Amakagame</h4>
+<div class="outline-text-4" id="text-3-3-4">
+<p>
+<b>Naturaleza Amakagame ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc0548e6" class="outline-3">
+<h3 id="orgc0548e6"><span class="section-number-3">3.4.</span> <i>Cuarta capa</i></h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-org426167f" class="outline-4">
+<h4 id="org426167f"><span class="section-number-4">3.4.1.</span> Orbe Perforador (Tamaugachi)</h4>
+<div class="outline-text-4" id="text-3-4-1">
+
+<div id="orgceedca0" class="figure">
+<p><img src="./imgs/Orb_Piercer_Square.png" alt="Orb_Piercer_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Orbe Perforador 10</b><br />
+Territorial, Agujas venenosas, Ágil, Implacable<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgca083cb" class="outline-4">
+<h4 id="orgca083cb"><span class="section-number-4">3.4.2.</span> Onitsuchi</h4>
+<div class="outline-text-4" id="text-3-4-2">
+<p>
+<b>Naturaleza Onitsuchi ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org78c397a" class="outline-4">
+<h4 id="org78c397a"><span class="section-number-4">3.4.3.</span> Oso Seta (Takeguma)</h4>
+<div class="outline-text-4" id="text-3-4-3">
+<p>
+<b>Naturaleza Oso Seta ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org54d7202" class="outline-3">
+<h3 id="org54d7202"><span class="section-number-3">3.5.</span> <i>Quinta capa</i></h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+<div id="outline-container-org037ad66" class="outline-4">
+<h4 id="org037ad66"><span class="section-number-4">3.5.1.</span> Hidra del Desierto (Kasshogashira)</h4>
+<div class="outline-text-4" id="text-3-5-1">
+
+<div id="org163c119" class="figure">
+<p><img src="./imgs/Stingerhead_Anime_Square.png" alt="Stingerhead_Anime_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Hidra del Desierto 8</b><br />
+Astuto, Empalar, Cavar túneles, Depredador<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbaa9897" class="outline-4">
+<h4 id="orgbaa9897"><span class="section-number-4">3.5.2.</span> Hamashirama</h4>
+<div class="outline-text-4" id="text-3-5-2">
+<p>
+<b>Naturaleza Hamashirama ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2ddc823" class="outline-3">
+<h3 id="org2ddc823"><span class="section-number-3">3.6.</span> <i>Sexta capa</i></h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-org6ed3683" class="outline-4">
+<h4 id="org6ed3683"><span class="section-number-4">3.6.1.</span> Meinastoirim</h4>
+<div class="outline-text-4" id="text-3-6-1">
+<p>
+<b>Naturaleza Meinastoirim 3</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf93e801" class="outline-4">
+<h4 id="orgf93e801"><span class="section-number-4">3.6.2.</span> Emperorshell</h4>
+<div class="outline-text-4" id="text-3-6-2">
+<p>
+<b>Naturaleza Emperorshell ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org12e3c2c" class="outline-4">
+<h4 id="org12e3c2c"><span class="section-number-4">3.6.3.</span> Kuongatari</h4>
+<div class="outline-text-4" id="text-3-6-3">
+
+<div id="org775b617" class="figure">
+<p><img src="./imgs/Amaranthine-Deceptor_Anime.png" alt="Amaranthine-Deceptor_Anime.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Kuongatari 6</b><br />
+Mimetizarse, Moverse en enjambre, Volar, Entrar en orificios<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd73f7f1" class="outline-4">
+<h4 id="orgd73f7f1"><span class="section-number-4">3.6.4.</span> Dragón Molusco (Ryuusazai)</h4>
+<div class="outline-text-4" id="text-3-6-4">
+
+<div id="orgce38acc" class="figure">
+<p><img src="./imgs/Turbinid-Dragon_Anime_Square.png" alt="Turbinid-Dragon_Anime_Square.png" width="400" /><br />
+</p>
+</div>
+
+<p>
+<b>Naturaleza Dragón Molusco 12</b><br />
+Poderoso, Destructor, Gigantesco, Escamas venenosas<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5fba748" class="outline-4">
+<h4 id="org5fba748"><span class="section-number-4">3.6.5.</span> Misoujack</h4>
+<div class="outline-text-4" id="text-3-6-5">
+<p>
+<b>Naturaleza Misoujack ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0d04554" class="outline-4">
+<h4 id="org0d04554"><span class="section-number-4">3.6.6.</span> Fuzosheppu</h4>
+<div class="outline-text-4" id="text-3-6-6">
+<p>
+<b>Naturaleza Fuzosheppu ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org274553f" class="outline-4">
+<h4 id="org274553f"><span class="section-number-4">3.6.7.</span> Rata Hermitaña (Yadone)</h4>
+<div class="outline-text-4" id="text-3-6-7">
+<p>
+<b>Naturaleza Rata Hermitaña ?</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org519fd0e" class="outline-3">
+<h3 id="org519fd0e"><span class="section-number-3">3.7.</span> <i>Otras criaturas</i></h3>
+<div class="outline-text-3" id="text-3-7">
+</div>
+<div id="outline-container-org8573367" class="outline-4">
+<h4 id="org8573367"><span class="section-number-4">3.7.1.</span> Narehate (Maldito)</h4>
+<div class="outline-text-4" id="text-3-7-1">
+<p>
+<b>Naturaleza Narehate (Maldito) 1</b><br />
+???<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga64d6b4" class="outline-3">
+<h3 id="orga64d6b4"><span class="section-number-3">3.8.</span> <i>Orden natural del Abismo conocido</i></h3>
+<div class="outline-text-3" id="text-3-8">
+<p>
+[&#x2026;]<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Dragón Molusco</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">Orbe Perforador, Amaranthine-Deceptor, Stingerhead</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Sierpe Carmesí, Madokajack, Fuzosheppu</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">Ottobas, Corpse Weeper, Colmillo de Seda, Inbyo</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Humano (adulto), Narehate (bendecidos), Hammerbeak, Amakagame</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Humano (niño), Narehate, Neritantan, Meinastoirim, Demonfish, Hamashirama</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5bf7388" class="outline-2">
+<h2 id="org5bf7388"><span class="section-number-2">4.</span> <b>Maldición del Abismo</b></h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.<br />
+</p>
+
+
+<div id="orga2651e9" class="figure">
+<p><img src="./imgs/Curse-of-the-Abyss.png" alt="Curse-of-the-Abyss.png" /><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbc6dbd3" class="outline-3">
+<h3 id="orgbc6dbd3"><span class="section-number-3">4.1.</span> <i>Capas</i></h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.<br />
+</p>
+</div>
+
+<div id="outline-container-org1fdb768" class="outline-4">
+<h4 id="org1fdb768"><span class="section-number-4">4.1.1.</span> Primera capa - <b>Borde del Abismo</b> (0~1350m)</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+No hay pérdida de Naturaleza. Prueba de Salud Ob.2 o quedas mareado (como Cansado).<br />
+</p>
+
+
+<div id="org440642a" class="figure">
+<p><img src="./imgs/1st-Layer.png" alt="1st-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgce9eb91" class="outline-4">
+<h4 id="orgce9eb91"><span class="section-number-4">4.1.2.</span> Segunda capa - <b>Bosque de la tentación</b> (1350~2600m)</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+Tu Naturaleza se deteriora en 1 punto. Prueba de Salud Ob.3 o sufres náuseas y dolores de cabeza (como Cansado y Enfadado).<br />
+</p>
+
+
+<div id="org75fa46e" class="figure">
+<p><img src="./imgs/2nd-Layer.png" alt="2nd-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org39b0d21" class="outline-4">
+<h4 id="org39b0d21"><span class="section-number-4">4.1.3.</span> Tercera capa - <b>La gran falla</b> (2600~7000m)</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<p>
+Tu Naturaleza se deteriora en 2 puntos. Prueba de Voluntad Ob.3 o sufres vértigo y alucinaciones (como Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante veinte minutos).<br />
+</p>
+
+
+<div id="org06bf8b0" class="figure">
+<p><img src="./imgs/3rd-Layer.png" alt="3rd-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga7cd03f" class="outline-4">
+<h4 id="orga7cd03f"><span class="section-number-4">4.1.4.</span> Cuarta capa - <b>Cáliz de gigantes</b> (7000~12000m)</h4>
+<div class="outline-text-4" id="text-4-1-4">
+<p>
+Deterioro de 3 puntos de Naturaleza. Prueba de Salud Ob.4 o sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (como Cansado y Herido). Si el margen de fallo fue de 3 o más, quedas inconsciente.<br />
+</p>
+
+
+<div id="org22b429e" class="figure">
+<p><img src="./imgs/4th-Layer.png" alt="4th-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8be467c" class="outline-4">
+<h4 id="org8be467c"><span class="section-number-4">4.1.5.</span> Quinta capa - <b>Mar de cadáveres</b> (12000~13000m)</h4>
+<div class="outline-text-4" id="text-4-1-5">
+<p>
+Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.<br />
+</p>
+
+
+<div id="orgb9a4327" class="figure">
+<p><img src="./imgs/5th-Layer.png" alt="5th-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org011aa05" class="outline-4">
+<h4 id="org011aa05"><span class="section-number-4">4.1.6.</span> Sexta capa - <b>Capital sin retorno</b> (13000~15500m)</h4>
+<div class="outline-text-4" id="text-4-1-6">
+<p>
+Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).<br />
+</p>
+
+
+<div id="orgb90c726" class="figure">
+<p><img src="./imgs/6th-Layer.png" alt="6th-Layer.png" /><br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org794368f" class="outline-4">
+<h4 id="org794368f"><span class="section-number-4">4.1.7.</span> Séptima capa - <b>El vórtice final</b> (15000~?????m)</h4>
+<div class="outline-text-4" id="text-4-1-7">
+<p>
+Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).<br />
+</p>
+
+
+<div id="org959b42b" class="figure">
+<p><img src="./imgs/7th-Layer-Sketch.png" alt="7th-Layer-Sketch.png" /><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1496267" class="outline-3">
+<h3 id="org1496267"><span class="section-number-3">4.2.</span> <i>Distorsión temporal</i></h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Se dice que hay alún tipo de distorsión del tiempo dentro del Abismo, aunque no se sabe con certeza si es real o una mera sensación de los exploradores. La Silbato Blanco Ozen afirma que el efecto se vuelve extremo a partir de la quinta capa de las profundidades, por experiencia propia: ella descendió lo que supuso fueron un par de semanas, pero en la superfície habían pasado meses.<br />
+</p>
+
+<p>
+Este efecto es opcional. Si escoges usarlo en vuestra partida, considera que una hora en la superfície equivale a la mitad del número de la capa actual de los jugadores, por ejemplo: una hora en la superfície son 2 horas en la 4ª capa.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org077ceee" class="outline-3">
+<h3 id="org077ceee"><span class="section-number-3">4.3.</span> <i>Naturaleza 0, Naturaleza 7</i></h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.<br />
+</p>
+
+<p>
+En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org74db980" class="outline-3">
+<h3 id="org74db980"><span class="section-number-3">4.4.</span> <i>Bendición</i></h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de <i>Narehate</i>.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org388521d" class="outline-2">
+<h2 id="org388521d"><span class="section-number-2">5.</span> <b>Exploración</b></h2>
+<div class="outline-text-2" id="text-5">
+<p>
+El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.<br />
+</p>
+</div>
+
+<div id="outline-container-orgd6688e5" class="outline-3">
+<h3 id="orgd6688e5"><span class="section-number-3">5.1.</span> <i>Iluminación</i></h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+La falta de una fuente de luz durante un conflicto que use Salud como base en un lugar sin iluminación implica un -1 a tu disposición inicial.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5762d5a" class="outline-2">
+<h2 id="org5762d5a"><span class="section-number-2">6.</span> <b>Habilidades</b></h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Las nuevas habilidades introducidas, junto con sus usos y factores, son las siguientes:<br />
+</p>
+</div>
+
+<div id="outline-container-org70536ec" class="outline-3">
+<h3 id="org70536ec"><span class="section-number-3">6.1.</span> <i>Escalador</i></h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+Un escalador se dedica a trepar y descender simas y paredes montañosas generalmente.<br />
+</p>
+
+<p>
+Los hescaladores pueden recibir usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.<br />
+</p>
+</div>
+
+<div id="outline-container-org95b702f" class="outline-4">
+<h4 id="org95b702f"><span class="section-number-4">6.1.1.</span> Factores para Escalador</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<p>
+<i>Terreno</i>: algo empinado (45º~80º), vertical (90º), muy empinado (120º~150º), boca abajo (180º+).<br />
+</p>
+
+<p>
+<i>Distancia</i>: 10 metros, 50 metros, 100 metros, 250 metros, 500 metros.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga0453f8" class="outline-4">
+<h4 id="orga0453f8"><span class="section-number-4">6.1.2.</span> Sugerencias de ayuda para Escalador</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<p>
+Los Conocimientos apropiados.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9d3856d" class="outline-3">
+<h3 id="org9d3856d"><span class="section-number-3">6.2.</span> <i>Conocimiento del flujo de Consciencias</i></h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Referente a la capacidad de detectar peculiaridades en el flujo de Consciencias. Es propio de Narehate y las criaturas y bestias nativas del Abismo.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2c7481e" class="outline-2">
+<h2 id="org2c7481e"><span class="section-number-2">7.</span> <b>Rasgos</b></h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Los nuevos rasgos introducidos y sus cualidades son los siguientes:<br />
+</p>
+</div>
+
+<div id="outline-container-orgf80905f" class="outline-3">
+<h3 id="orgf80905f"><span class="section-number-3">7.1.</span> <i>Tocado por el Abismo</i></h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Tus viajes te han pasado factura. Has tenido cambios fisiológicos, sean menores (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca), mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable), u otros síntoma de una larga exposición a la Maldición del Abismo.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org76ba62f" class="outline-3">
+<h3 id="org76ba62f"><span class="section-number-3">7.2.</span> <i>Narehate</i></h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+&ldquo;<i>Nare no hate</i>&rdquo; (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).<br />
+</p>
+
+<p>
+Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 3. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.<br />
+</p>
+
+<p>
+Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido a un confuso montón de carne y tu Naturaleza, Salud y Voluntad se reducen a 1. Si obtuviste la Bendición, tu cuerpo cobra un aspecto más bestial, animal (pelaje, cola, alas, garras, largas orejas, escamas&#x2026;). Ponte de acuerdo con en GM para esta mutación basándote en los deseos u objetivos de tu personaje.<br />
+</p>
+
+<p>
+El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9b4aaba" class="outline-3">
+<h3 id="org9b4aaba"><span class="section-number-3">7.3.</span> <i>Ciudadano de la Ciudad Dorada</i></h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Para los más conocedores de los secretos prohibidos del Abismo, se les asigna la categoría de reliquia &ldquo;Aubade&rdquo;, es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.<br />
+</p>
+
+<p>
+Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el <i>Lanzallamas</i> (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m. Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.<br />
+</p>
+
+<p>
+El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.<br />
+</p>
+
+<p>
+No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al equipo.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4a9b5e2" class="outline-2">
+<h2 id="org4a9b5e2"><span class="section-number-2">8.</span> <b>Condiciones</b></h2>
+<div class="outline-text-2" id="text-8">
+<p>
+Para añadir algo de drama, añadiré una condición a las ya existentes:<br />
+</p>
+</div>
+
+<div id="outline-container-org2bb9622" class="outline-3">
+<h3 id="org2bb9622"><span class="section-number-3">8.1.</span> <i>Envenenado</i></h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra flora o criaturas del Abismo. Para sanar el envenenamiento no se puede prescindir de un sanador como con las condiciones Herido y Enfermo. Por ello es una condición muy peligrosa para un jugador, ya que puede ser letal si no es tratada a tiempo.<br />
+</p>
+
+<p>
+Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada cinco minutos después de quedar envenenado, debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran restando 1D más en las pruebas y -1 más a la disposición de conflictos. Si la cantidad restada a las pruebas supera tu valor actual de Voluntad, entras en un estado catatónico. Si supera tu valor actual de Salud, mueres.<br />
+</p>
+
+<p>
+De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob.3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.<br />
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><i>Nanachi pretende utilizar su habilidad Sanador 4 para ayudar a Riko con su envenenamiento. Usando como ayuda su Conocimiento sobre venenos 2 (+1D) y los suministros que tenía guardados (setas de Osos Seta, +1D), obtiene +2D a su prueba. Tiene en total 6D. Al tirar logra 4 éxitos, y como eliminar el envenenamiento es Ob.3, consigue eliminar la condición de Riko.</i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2622de2" class="outline-2">
+<h2 id="org2622de2"><span class="section-number-2">9.</span> <b>Conflictos (ejemplos)</b></h2>
+<div class="outline-text-2" id="text-9">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><i>Al llegar a la cuarta capa, Riko y Reg entran en el territorio de un Orbe Perforador, que les planta cara. El GM declara un conflicto y se deciden los objetivos. El Orbe Perforador pretende asesinar a los intrusos, mientras que Reg y Riko pretenden huir a una zona segura.</i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Dorovich</p>
+</div>
+</body>
+</html>
