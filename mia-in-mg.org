@@ -318,12 +318,12 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 ** /Orden natural del Abismo conocido/
 [...]
 
-| 6 | Dragón Molusco                                                            |
-| 5 | Orbe Perforador, Amaranthine-Deceptor, Stingerhead                        |
-| 4 | Sierpe Carmesí, Madokajack, Fuzosheppu                                    |
-| 3 | Ottobas, Corpse Weeper, Colmillo de Seda, Inbyo                           |
-| 2 | Humano (adulto), Narehate (bendecidos), Hammerbeak, Amakagame             |
-| 1 | Humano (niño), Narehate, Neritantan, Meinastoirim, Demonfish, Hamashirama |
+| 6 | Dragón Molusco                                                                   |
+| 5 | Orbe Perforador, Kuongatari, Hidra del Desierto                                  |
+| 4 | Sierpe Carmesí, Madokajack, Fuzosheppu                                           |
+| 3 | Ottobas, Cadáver Llorón, Colmillo de Seda, Inbyo                                 |
+| 2 | Humano (adulto), Narehate (bendecido), Pico Martillo, Amakagame                  |
+| 1 | Humano (niño), Narehate, Neritantan, Meinastoirim, Trucha Demoníaca, Hamashirama |
 
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
