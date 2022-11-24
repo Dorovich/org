@@ -19,41 +19,63 @@ Por ahora, consideraré que todos los personajes jugadores son humanos de Orth p
 
 Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.
 
-** /Salud/
-En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
-
-** /Voluntad/
-De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental y perspicacia de un personaje.
-
 ** /Rango/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
-| *Silbato* | *Edad* | *Salud* | *Voluntad* | *Profundidad permitida* |
-|-----------+--------+---------+------------+-------------------------|
-| Cascabel  | 5~11   |       5 |          2 | No descienden           |
-| Rojo      | 12~17  |       6 |          3 | 550m                    |
-| Azul      | 18~25  |       5 |          4 | 2600m                   |
-| Lunar     | 21~40  |       4 |          4 | 12000m                  |
-| Negro     | 31~60  |       4 |          5 | 13000m                  |
-| Blanco    | 41~60  |       5 |          6 | 15500m o más            |
+| *Silbato* | *Edad* | *Profundidad permitida* |
+|-----------+--------+-------------------------|
+| Cascabel  | 5~11   | No descienden           |
+| Rojo      | 12~17  | 550m                    |
+| Azul      | 18~25  | 2600m                   |
+| Lunar     | 21~40  | 12000m                  |
+| Negro     | 31~60  | 13000m                  |
+| Blanco    | 41~60  | 15500m o más            |
 
 Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen como Silbatos Rojos o Azules, o incluso Lunares si son experimentados.
 
-| /El jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad. Tiene 6 puntos de Salud y 3 de Voluntad./ |
+| /Pablo, el jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad./ |
+
+** /Salud/
+En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original. La Salud inicial depende del rango y es la siguiente:
+
+| *Silbato* | *Salud* |
+|-----------+---------|
+| Cascabel  |       2 |
+| Rojo      |       3 |
+| Azul      |       4 |
+| Lunar     |       4 |
+| Negro     |       5 |
+| Blanco    |       6 |
+
+| /Pablo anota que Riko empieza con Salud 3, ya que es una silbato Rojo./  |
+
+** /Voluntad/
+De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental y perspicacia de un personaje. La Voluntad inicial también depende del rango y es la siguiente:
+
+| *Silbato* | *Voluntad* |
+|-----------+------------|
+| Cascabel  |          1 |
+| Rojo      |          2 |
+| Azul      |          3 |
+| Lunar     |          4 |
+| Negro     |          5 |
+| Blanco    |          6 |
+
+| /Pablo también anota la Voluntad 3 de Riko, su personaje, una silbato Rojo./ |
 
 ** /Círculos/
 Dado que la mayoría de los niveles del Abismo no tienen población humana alguna, el uso de esta aptitud se limita a zonas pobladas, o bien zonas donde sabemos que podemos encontrar a un humano.
 
 Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero. Tambén lo podemos obtener usando nuestro Silbato para llamar a otros exploradores dentro del Abismo.
 
-| *Silbato* | *Círculos iniciales* |
-|-----------+----------------------|
-| Cascabel  |                    1 |
-| Rojo      |                    2 |
-| Azul      |                    3 |
-| Lunar     |                    3 |
-| Negro     |                    4 |
-| Blanco    |                    4 |
+| *Silbato* | *Círculos* |
+|-----------+------------|
+| Cascabel  |          1 |
+| Rojo      |          2 |
+| Azul      |          3 |
+| Lunar     |          3 |
+| Negro     |          4 |
+| Blanco    |          4 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Círculos iniciales fluctúan:
 
@@ -65,8 +87,6 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 + Si la respuesta es sí, aumenta tus Círculos en 1.
 /¿Tiene tu personaje enemigos poderosos en el Gremio de Exploradores?/
 + Si es que sí, disminuye tus Círculos en 1.
-/¿Ha sido condenado por algun crimen?/
-+ Decrementa tus Círculos en 1 si la respuesta es sí.
 /¿Es tu personaje duro, solitario y distante?/
 + Si es que sí, reduce tus Círculos en 1.
 
@@ -75,25 +95,34 @@ En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su p
 
 Por tanto, diremos que los Recursos de cierto personaje son la medida en que éste está bien equipado, preparado para las ocurrencias del Abismo, y su capacidad de usar su entorno en su beneficio.
 
-| *Silbato* | *Recuros iniciales* |
-|-----------+---------------------|
-| Cascabel  |                   1 |
-| Rojo      |                   2 |
-| Azul      |                   3 |
-| Lunar     |                   4 |
-| Negro     |                   5 |
-| Blanco    |                   5 |
+| *Silbato* | *Recursos* |
+|-----------+------------|
+| Cascabel  |          1 |
+| Rojo      |          2 |
+| Azul      |          3 |
+| Lunar     |          4 |
+| Negro     |          5 |
+| Blanco    |          5 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Recursos iniciales fluctúan:
 
-/¿?/
-/¿?/
-/¿?/
+/¿Preparas bien tu equipo antes de una expedición, intentando minimizar la improvisación sobre la marcha?/
++ Si la respuesta es que sí, aumenta tus Recursos en 1.
+/¿Eres partidario de dar a los necesitados por caridad, aunque no tengas mucho?/
++ Si no es así, incrementa tus Recursos en 1. No puedes escoger el rasgo Generoso.
+/¿Conoces bien los recursos que el Abismo ofrece y arrebata?/
++ En caso afirmativo, aumenta tus Recursos en 1.
+/¿Distingues las herramientas de los exploradores y aprecias sus funciones?/
++ Si no es así, decrementa tus Recursos en 1.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/ilblu_shop.jpg]]
 
 ** /Acero/
 El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
 
-| *Silbato* | *Acero inicial* |
+| *Silbato* | *Acero*  |
 |-----------+-----------------|
 | Cascabel  |               1 |
 | Rojo      |               2 |
@@ -132,6 +161,10 @@ Puesto que esta es solo una suposición, recomiendo encarecidamente que a la hor
 
 *** Variación
 Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo. Una buena comida y un sueño reparador con tus compañeros permite recuperar un punto de Naturaleza deteriorada.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/hideout.jpg]]
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
@@ -334,37 +367,52 @@ Las bestias no son el único peligro que asola a los humanos en el inframundo. L
 El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
 
 *** Primera capa - *Borde del Abismo* (0~1350m)
- No hay pérdida de Naturaleza. Prueba de Salud Ob.2 o quedas mareado (como Cansado).
+ No hay pérdida de Naturaleza. Haz una prueba de Salud Ob 2.
+ | *Superada* | Sin consecuencias.        |
+ | *Fallida*  | Quedas mareado (Cansado). |
 
  [[./imgs/1st-Layer.png]]
 
 *** Segunda capa - *Bosque de la tentación* (1350~2600m)
- Tu Naturaleza se deteriora en 1 punto. Prueba de Salud Ob.3 o sufres náuseas y dolores de cabeza (como Cansado y Enfadado).
+ Tu Naturaleza se deteriora en 1 punto. Haz una prueba de Salud Ob 3.
+ | *Superada* | Notas dolor de cabeza (Enfadado).                        |
+ | *Fallida*  | Sufres náuseas y dolores de cabeza (Cansado y Enfadado). |
 
  [[./imgs/2nd-Layer.png]]
 
 *** Tercera capa - *La gran falla* (2600~7000m)
- Tu Naturaleza se deteriora en 2 puntos. Prueba de Voluntad Ob.3 o sufres vértigo y alucinaciones (como Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante veinte minutos).
+ Tu Naturaleza se deteriora en 2 puntos. Haz una prueba de Voluntad Ob 3:
+ | *Superada* | Sufres mareos y vértigo (Cansado y Enfadado).                                                                                                                  |
+ | *Fallida*  | Además de mareos y vértigo, tienes alucinaciones visuales y auditivas (Cansado, Enfadado y -1D en pruebas de Naturaleza, Salud y Voluntad durante 20 minutos). |
 
  [[./imgs/3rd-Layer.png]]
 
 *** Cuarta capa - *Cáliz de gigantes* (7000~12000m)
- Deterioro de 3 puntos de Naturaleza. Prueba de Salud Ob.4 o sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (como Cansado y Herido). Si el margen de fallo fue de 3 o más, quedas inconsciente.
+ Deterioro de 3 puntos de Naturaleza. Haz una prueba de Salud Ob 4:
+ | *Superada* | Sufres un dolor intenso por todo el cuerpo y hemorragias por todos los orificios (Cansado y Herido).  |
+ | *Fallida*  | Las mismas consecuencias que la prueba superada, pero también quedas inconsciente durante 20 minutos. |
 
  [[./imgs/4th-Layer.png]]
 
 *** Quinta capa - *Mar de cadáveres* (12000~13000m)
- Naturaleza deteriorada en 4 puntos. Prueba de Voluntad Ob.4 o quedas privado de tus sentidos y entras en comportamiento auto-lesionante (como Cansado, y durante veinte minutos -2D en pruebas de Naturaleza, Salud y Voluntad). Si el margen de fallo fue de 3 o más, quedas inconsciente.
+ Naturaleza deteriorada en 4 puntos. Haz una prueba de Voluntad Ob 4:
+ | *Superada* | Quedas privado de tus sentidos y entras en comportamiento auto-lesionante (Cansado y durante 10 minutos -2D en pruebas de Naturaleza, Salud y Voluntad). |
+ | *Fallida*  | Las mismas consecuencias que la prueba superada, pero también quedas inconsciente durante 20 minutos después de sufrir los primeros efectos.             |
 
  [[./imgs/5th-Layer.png]]
 
 *** Sexta capa - *Capital sin retorno* (13000~15500m)
- Tu Naturaleza se deteriora en 6 puntos. Prueba de Voluntad Ob.5 o quedas Herido. Mutas permanentemente a un Narehate (Rasgo).
+ Tu Naturaleza se deteriora en 6 puntos. Haz una prueba de Voluntad Ob 5:
+ | *Superada* | Mutas permanentemente a un Narehate (Rasgo).                                     |
+ | *Fallida*  | También te vuelves un Narehate, pero la transformación te deja Herido y Cansado. |
 
  [[./imgs/6th-Layer.png]]
 
 *** Séptima capa - *El vórtice final* (15000~?????m)
- Se desconocen los efectos completos, pero supondremos que tu Naturaleza se deteriora en 7 puntos. Prueba de Salud Ob.5 o quedas Cansado y Herido. Mutas permanentemente a un Narehate (Rasgo).
+ Se desconocen los efectos completos, pero supondremos lo siguiente.
+ Naturaleza deteriorada en 7 puntos. Haz una prueba de Salud Ob.5:
+ | *Superada* | Sufres las mismas consecuencias que superar la prueba de ascenso desde las capas Quinta y Sexta. |
+ | *Fallida*  | Sufres las mismas consecuencias que fallar la prueba de ascenso desde las capas Quinta y Sexta.  |
 
  [[./imgs/7th-Layer-Sketch.png]]
 
@@ -374,12 +422,16 @@ Se dice que hay alún tipo de distorsión del tiempo dentro del Abismo, aunque n
 Este efecto es opcional. Si escoges usarlo en vuestra partida, considera que una hora en la superfície equivale a la mitad del número de la capa actual de los jugadores, por ejemplo: una hora en la superfície son 2 horas en la 4ª capa.
 
 ** /Naturaleza 0, Naturaleza 7/
-Si tu Naturaleza se reduce a 0 se aplican las reglas originales, excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.
+Si tu Naturaleza se reduce a 0 se aplican las reglas originales (tu Naturaleza máxima se reduce en 1 y uno de tus rasgos cambia a uno diferente, como /Tocado por el Abismo/), excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.
 
-En caso que tu Naturaleza alcanze el valor máximo de 7, lo cual es muy complicado en este escenario, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
+En caso que tu Naturaleza alcanze el valor máximo de 7, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
 
 ** /Bendición/
-La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y recibe la Bendición. Ambas reciben el Rasgo de /Narehate/.
+La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y obtiene la Bendición. Ambas reciben el Rasgo de /Narehate/.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/experiments.jpg]]
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
@@ -387,21 +439,27 @@ El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a f
 ** /Iluminación/
 La falta de una fuente de luz durante un conflicto que use Salud como base en un lugar sin iluminación implica un -1 a tu disposición inicial.
 
+* *Reliquias de las Profundidades*
+
+#+attr_html: :width 800
+#+attr_org: :width 800
+[[./imgs/relics.jpg]]
+
 * *Habilidades*
 Las nuevas habilidades introducidas, junto con sus usos y factores, son las siguientes:
 
 ** /Escalador/
-Un escalador se dedica a trepar y descender simas y paredes montañosas generalmente.
+Un escalador se dedica generalmente a trepar y descender simas y paredes montañosas.
 
-Los hescaladores pueden recibir usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
+Los escaladores pueden usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
 
 *** Factores para Escalador
-/Terreno/: algo empinado (45º~80º), vertical (90º), muy empinado (120º~150º), boca abajo (180º+).
+/Terreno/: algo empinado (60º~80º), vertical (90º), muy empinado (120º~150º), boca abajo (180º+).
 
 /Distancia/: 10 metros, 50 metros, 100 metros, 250 metros, 500 metros.
 
 *** Sugerencias de ayuda para Escalador
-Los Conocimientos apropiados.
+Pionero, Explorador y los Conocimientos apropiados.
 
 ** /Conocimiento del flujo de Consciencias/
 Referente a la capacidad de detectar peculiaridades en el flujo de Consciencias. Es propio de Narehate y las criaturas y bestias nativas del Abismo.
@@ -410,23 +468,23 @@ Referente a la capacidad de detectar peculiaridades en el flujo de Consciencias.
 Los nuevos rasgos introducidos y sus cualidades son los siguientes:
 
 ** /Tocado por el Abismo/
-Tus viajes te han pasado factura. Has tenido cambios fisiológicos, sean menores (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca), mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable), u otros síntoma de una larga exposición a la Maldición del Abismo.
+Tus viajes a las profundidades te han pasado factura. El rasgo a nivel 1 indica que sufres cambios fisiológicos menores que se manifiestan de vez en cuando (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca). A nivel 2 se tornan permanentes. A nivel 3 los cambios de vuelven mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable).
 
 ** /Narehate/
 "/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
 
-Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 3. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
-
 Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido a un confuso montón de carne y tu Naturaleza, Salud y Voluntad se reducen a 1. Si obtuviste la Bendición, tu cuerpo cobra un aspecto más bestial, animal (pelaje, cola, alas, garras, largas orejas, escamas...). Ponte de acuerdo con en GM para esta mutación basándote en los deseos u objetivos de tu personaje.
+
+Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 2. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
 
 El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
 ** /Ciudadano de la Ciudad Dorada/
 Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Para los más conocedores de los secretos prohibidos del Abismo, se les asigna la categoría de reliquia "Aubade", es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.
 
-Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m. Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
+Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m (+1D a la acción de Maniobra). Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
 
-El rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde el principio. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
+De igual forma que Narehate, el rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde su concepción. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
 No recomiendo tener personajes con este rasgo en la partida, puesto que tienen muchas más facilidades que el resto, y desequilibran al equipo.
 
