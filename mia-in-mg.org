@@ -474,6 +474,10 @@ Los nuevos rasgos introducidos y sus cualidades son los siguientes:
 ** /Tocado por el Abismo/
 Tus viajes a las profundidades te han pasado factura. El rasgo a nivel 1 indica que sufres cambios fisiológicos menores que se manifiestan de vez en cuando (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca). A nivel 2 se tornan permanentes. A nivel 3 los cambios de vuelven mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable).
 
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/ozen.jpg]]
+
 ** /Narehate/
 "/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
 
