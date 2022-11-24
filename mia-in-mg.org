@@ -47,6 +47,8 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 | Negro     |       5 |
 | Blanco    |       6 |
 
+[...]
+
 | /Pablo anota que Riko empieza con Salud 3, ya que es una silbato Rojo./  |
 
 ** /Voluntad/
@@ -60,6 +62,8 @@ De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la 
 | Lunar     |          4 |
 | Negro     |          5 |
 | Blanco    |          6 |
+
+[...]
 
 | /Pablo también anota la Voluntad 3 de Riko, su personaje, una silbato Rojo./ |
 
