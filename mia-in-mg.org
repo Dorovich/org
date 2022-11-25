@@ -132,14 +132,14 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 ** /Acero/
 El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido en situaciones que requieren actuar sin vacilar, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
 
-| *Silbato* | *Acero*  |
-|-----------+-----------------|
-| Cascabel  |               1 |
-| Rojo      |               2 |
-| Azul      |               3 |
-| Lunar     |               3 |
-| Negro     |               4 |
-| Blanco    |               5 |
+| *Silbato* | *Acero* |
+|-----------+---------|
+| Cascabel  |       1 |
+| Rojo      |       2 |
+| Azul      |       3 |
+| Lunar     |       3 |
+| Negro     |       4 |
+| Blanco    |       5 |
 
 Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
 
@@ -201,15 +201,27 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Primera capa/
 *** Colmillo de Seda (Gokoge)
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Silkfang_Anime_Square.png]]
+
 *Naturaleza Colmillo de Seda ?*
 ???
 
 *** Pico Martillo
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Hammerbeak_Anime_Square.png]]
+
 *Naturaleza Pico Martillo ?*
 ???
 
 *** Trucha Demoníaca (Gankimasu)
+
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Demonfish_Anime_Square.png]]
 
 *Naturaleza Trucha Demoníaca ?*
 ???
@@ -227,10 +239,18 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Inbyo
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Inbyo_Anime_Square.png]]
+
 *Naturaleza Inbyo ?*
 ???
 
 *** Ottobas (Ottobasu)
+
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Ottobas_Anime_Square.png]]
 
 *Naturaleza Ottobas ?*
 ???
@@ -242,12 +262,19 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Rohana
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Rohana_Anime_Square.png]]
+
 *Naturaleza Rohana ?*
 ???
 
-
 ** /Tercera capa/
 *** Madokajack
+
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Madokajack.png]]
 
 *Naturaleza Madokajack ?*
 ???
@@ -275,6 +302,10 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 *Naturaleza Amakagame ?*
 ???
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/amakagame.png]]
+
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
 
@@ -292,6 +323,10 @@ Territorial, Agujas venenosas, Ágil, Implacable
 
 *** Oso Seta (Takeguma)
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Shroombear_Square.png]]
+
 *Naturaleza Oso Seta ?*
 ???
 
@@ -307,11 +342,19 @@ Astuto, Empalar, Cavar túneles, Depredador
 
 *** Hamashirama
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Hamashirama_Anime.png]]
+
 *Naturaleza Hamashirama ?*
 ???
 
 ** /Sexta capa/
 *** Meinastoirim
+
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Meinastilim_Anime_Square.png]]
 
 *Naturaleza Meinastoirim 3*
 ???
@@ -341,15 +384,27 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 
 *** Misoujack
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Mizoujack_Sketch_by_Lyza_Anime.png]]
+
 *Naturaleza Misoujack ?*
 ???
 
 *** Fuzosheppu
 
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Fuzosheppu_Anime_Square.png]]
+
 *Naturaleza Fuzosheppu ?*
 ???
 
 *** Rata Hermitaña (Yadone)
+
+#+attr_html: :width 400
+#+attr_org: :width 400
+[[./imgs/Hermit_Rat.png]]
 
 *Naturaleza Rata Hermitaña ?*
 ???
