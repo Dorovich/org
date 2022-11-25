@@ -42,7 +42,7 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 [[./imgs/whistle.jpg]]
 
 ** /Salud/
-En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original. La Salud inicial depende del rango y es la siguiente:
+La Salud inicial depende del rango y es la siguiente:
 
 | *Silbato* | *Salud* |
 |-----------+---------|
@@ -53,6 +53,8 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 | Negro     |       5 |
 | Blanco    |       6 |
 
+En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
+
 #+attr_html: :width 600
 #+attr_org: :width 600
 [[./imgs/ouch.png]]
@@ -60,7 +62,7 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 | /Pablo anota que Riko empieza con Salud 3, ya que es una silbato Rojo./  |
 
 ** /Voluntad/
-De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental, adaptabilidad y perspicacia de un personaje. La Voluntad inicial también depende del rango y es la siguiente:
+La Voluntad inicial también depende del rango y es la siguiente:
 
 | *Silbato* | *Voluntad* |
 |-----------+------------|
@@ -70,6 +72,8 @@ De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la 
 | Lunar     |          4 |
 | Negro     |          5 |
 | Blanco    |          6 |
+
+De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental, adaptabilidad y perspicacia de un personaje.
 
 #+attr_html: :width 600
 #+attr_org: :width 600
@@ -504,7 +508,7 @@ Si tu Naturaleza se reduce a 0 se aplican las reglas originales (tu Naturaleza m
 En caso que tu Naturaleza alcanze el valor máximo de 7, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador (volverá a Orth de la manera que pueda, y una vez allí se retirará o viajará a otro país en barco).
 
 ** /Bendición/
-La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y obtiene la Bendición. Ambas reciben el Rasgo de /Narehate/.
+La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y obtiene la Bendición. Ambas reciben el Rasgo de /Narehate/, pero se les aplican reglas distintas.
 
 #+attr_html: :width 600
 #+attr_org: :width 600
@@ -560,7 +564,7 @@ Tus viajes a las profundidades te han pasado factura. El rasgo a nivel 1 indica 
 ** /Narehate/
 "/Nare no hate/" (Una sombra de tu antiguo yo). Ese es el destino de todo aquel que sobrevive al ascenso desde el sexto estrato del inframundo. Al adquirir este rasgo, tus Círculos se reducen a 1, puesto que el resto de exploradores te da por muerto (o te mataría si te vieran).
 
-Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido a un confuso montón de carne y tu Naturaleza, Salud y Voluntad se reducen a 1. Si obtuviste la Bendición, tu cuerpo cobra un aspecto más bestial, animal (pelaje, cola, alas, garras, largas orejas, escamas...). Ponte de acuerdo con en GM para esta mutación basándote en los deseos u objetivos de tu personaje.
+Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido a un confuso montón de carne y tu Naturaleza, Salud, Voluntad, Círculos, Recursos y Acero se reducen a 1. Si obtuviste la Bendición, tu cuerpo cobra un aspecto más bestial, animal (pelaje, cola, alas, garras, largas orejas, escamas...). Ponte de acuerdo con en GM para esta mutación basándote en los deseos u objetivos de tu personaje.
 
 Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 2. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
 
