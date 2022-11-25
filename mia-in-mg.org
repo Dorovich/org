@@ -510,7 +510,7 @@ La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da única
 #+attr_org: :width 600
 [[./imgs/friends.jpg]]
 
-Semejante hazaña requiere que dos personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que la Bendita gaste un punto de destino durante la transformación. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
+Semejante hazaña requiere que dos personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que las dos gasten un punto de destino durante el proceso. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo: especies nuevas que registrar, poderosas reliquias que desenterrar, el misterio de lo que se halla en las profundidades. El camino, sin embargo, es casi tan importante como el destino.
