@@ -19,6 +19,8 @@ Por ahora, consideraré que todos los personajes jugadores son humanos de Orth p
 
 Siendo posiblemente el ser humano uno de los escalones más bajos en la cadena alimenticia dentro del ecosistema del Abismo -de igual forma que los ratones dentro de los Territorios y las tierras colindantes-, podemos preservar el valor inicial entre los que oscilan muchas de las habilidades que un personaje posee. Sin embargo, dada la naturaleza sobrenatural de muchas reliquias y artefactos del Abismo, resulta natural que estas restricciones puedan variar fuera de los límites que originariamente se imponen.
 
+La Naturaleza, Salud y Voluntad de los personajes oscilan entre 1 y 6, mientras que sus Círculos, Recursos y Acero entre 1 y 10.
+
 ** /Rango/
 Existen distintos rangos, de igual forma que en la Guardia de los ratones. Éstos se distinguen por un silbato otorgado por el Gremio de Exploradores, y también se encargan de crearlos todos excepto los Silbatos Blancos.
 
@@ -65,7 +67,7 @@ De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la 
 
 [...]
 
-| /Pablo también anota la Voluntad 3 de Riko, su personaje, una silbato Rojo./ |
+| /Pablo también anota la Voluntad 2 de Riko, su personaje, una silbato Rojo./ |
 
 ** /Círculos/
 Dado que la mayoría de los niveles del Abismo no tienen población humana alguna, el uso de esta aptitud se limita a zonas pobladas, o bien zonas donde sabemos que podemos encontrar a un humano.
@@ -93,6 +95,10 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 + Si es que sí, disminuye tus Círculos en 1.
 /¿Es tu personaje duro, solitario y distante?/
 + Si es que sí, reduce tus Círculos en 1.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/gang.png]]
 
 ** /Recursos/
 En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su poder adquisitivo. Esta noción pierde el sentido en nuestro escenario una vez se encuentra en niveles inferiores del Abismo (exceptuando en la aldea de la sexta capa, Ilblu, pero incluso en este escenario la idea que presento puede ser válida).
@@ -124,7 +130,7 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 [[./imgs/ilblu_shop.jpg]]
 
 ** /Acero/
-El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
+El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido en situaciones que requieren actuar sin vacilar, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
 
 | *Silbato* | *Acero*  |
 |-----------+-----------------|
@@ -145,6 +151,10 @@ Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
 + Si es así, reduce tu Acero en 1.
 /¿Ha sido educado en un entorno competitivo?/
 + Incrementa tu Acero en 1 si la respuesta es sí.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/pain.jpg]]
 
 Rasgos como Valiente o Intrépido pueden darte ventaja en estas pruebas, mientras que Temeroso o Reflexivo no serán de gran ayuda.
 
@@ -170,17 +180,16 @@ Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al
 #+attr_org: :width 600
 [[./imgs/hideout.jpg]]
 
-El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
-
-*** Valor inicial
 Para determinar tu valor inicial de la Naturaleza, usa las siguientes preguntas como guía:
 
 /¿Sientes gran admiración hacia los Silbatos Blancos?/
-Si tu respuesta es que sí,
-
++ Si tu respuesta es que sí, ?
 /¿Te aterran las historias de los exploradores veteranos?/
-
++ ?
 /¿Descenderías más de lo debido si tuvieras la oportunidad?/
++ ?
+
+El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
 * *Bestias y criaturas*
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
@@ -435,7 +444,9 @@ La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da única
 
 #+attr_html: :width 600
 #+attr_org: :width 600
-[[./imgs/experiments.jpg]]
+[[./imgs/friends.jpg]]
+
+Semejante hazaña requiere que dos personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que la Bendita gaste un punto de destino durante la transformación. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
