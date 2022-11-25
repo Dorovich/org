@@ -37,6 +37,10 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 
 | /Pablo, el jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad./ |
 
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/whistle.jpg]]
+
 ** /Salud/
 En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original. La Salud inicial depende del rango y es la siguiente:
 
@@ -49,12 +53,14 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 | Negro     |       5 |
 | Blanco    |       6 |
 
-[...]
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/ouch.png]]
 
 | /Pablo anota que Riko empieza con Salud 3, ya que es una silbato Rojo./  |
 
 ** /Voluntad/
-De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental y perspicacia de un personaje. La Voluntad inicial también depende del rango y es la siguiente:
+De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental, adaptabilidad y perspicacia de un personaje. La Voluntad inicial también depende del rango y es la siguiente:
 
 | *Silbato* | *Voluntad* |
 |-----------+------------|
@@ -65,7 +71,9 @@ De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la 
 | Negro     |          5 |
 | Blanco    |          6 |
 
-[...]
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/kaja.jpg]]
 
 | /Pablo también anota la Voluntad 2 de Riko, su personaje, una silbato Rojo./ |
 
@@ -166,7 +174,7 @@ He aquí la piedra angular del juego. La Naturaleza de un personaje humano repre
 
 Descrita de esta forma, una alta Naturaleza indica un alma fuerte, muy humana, mientras que una baja Naturaleza indica una mayor conexión con el Abismo y las fuerzas corruptas que se bañan en su inexpugnable seno.
 
-Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos,
+Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos, poseen aspectos asociados a ella.
 
 *** Aspectos
 En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisión. Quizás una buena opción sean Construir, Curiosidad, Cazar y Astuto.
@@ -225,7 +233,6 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *Naturaleza Trucha Demoníaca ?*
 ???
-
 
 ** /Segunda capa/
 *** Cadáver Llorón (Nakikabane)
@@ -299,12 +306,12 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Amakagame
 
-*Naturaleza Amakagame ?*
-???
-
 #+attr_html: :width 400
 #+attr_org: :width 400
-[[./imgs/amakagame.png]]
+[[./imgs/Amakagame_Anime_Square.png]]
+
+*Naturaleza Amakagame ?*
+???
 
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
@@ -429,7 +436,9 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
 
- [[./imgs/Curse-of-the-Abyss.png]]
+#+attr_html: :width 800
+#+attr_org: :width 800
+ [[./imgs/curse.png]]
 
 ** /Capas/
 El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
@@ -492,7 +501,7 @@ Este efecto es opcional. Si escoges usarlo en vuestra partida, considera que una
 ** /Naturaleza 0, Naturaleza 7/
 Si tu Naturaleza se reduce a 0 se aplican las reglas originales (tu Naturaleza máxima se reduce en 1 y uno de tus rasgos cambia a uno diferente, como /Tocado por el Abismo/), excepto cuando has ascendido desde la 6ª o 7ª capa, en cuyo caso el rasgo adquirido es el de Narehate.
 
-En caso que tu Naturaleza alcanze el valor máximo de 7, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador.
+En caso que tu Naturaleza alcanze el valor máximo de 7, tu personaje pierde todo sueño de explorar el Abismo y sus peligros constantes y sin sentido, retirándose de su vida de explorador (volverá a Orth de la manera que pueda, y una vez allí se retirará o viajará a otro país en barco).
 
 ** /Bendición/
 La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y obtiene la Bendición. Ambas reciben el Rasgo de /Narehate/.
@@ -504,7 +513,7 @@ La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da única
 Semejante hazaña requiere que dos personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que la Bendita gaste un punto de destino durante la transformación. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
 
 * *Exploración*
-El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo.
+El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo: especies nuevas que registrar, poderosas reliquias que desenterrar, el misterio de lo que se halla en las profundidades. El camino, sin embargo, es casi tan importante como el destino.
 
 ** /Iluminación/
 La falta de una fuente de luz durante un conflicto que use Salud como base en un lugar sin iluminación implica un -1 a tu disposición inicial.
@@ -522,6 +531,10 @@ Las nuevas habilidades introducidas, junto con sus usos y factores, son las sigu
 Un escalador se dedica generalmente a trepar y descender simas y paredes montañosas.
 
 Los escaladores pueden usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/exploring.jpg]]
 
 *** Factores para Escalador
 /Terreno/: algo empinado (60º~80º), vertical (90º), muy empinado (120º~150º), boca abajo (180º+).
@@ -551,12 +564,20 @@ Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido 
 
 Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 2. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
 
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/mitty_and_nanachi.jpg]]
+
 El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
 ** /Ciudadano de la Ciudad Dorada/
 Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Para los más conocedores de los secretos prohibidos del Abismo, se les asigna la categoría de reliquia "Aubade", es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.
 
 Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m (+1D a la acción de Maniobra). Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
+
+#+attr_html: :width 600
+#+attr_org: :width 600
+[[./imgs/Reg_sketch.png]]
 
 De igual forma que Narehate, el rasgo de Ciudadano de la Ciudad Dorada es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener si tu personaje hubiera sido así desde su concepción. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
