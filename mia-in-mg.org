@@ -42,7 +42,7 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 [[./imgs/whistle.jpg]]
 
 ** /Salud/
-La Salud inicial depende del rango y es la siguiente:
+La Salud inicial de un personaje depende del rango y es la siguiente:
 
 | *Silbato* | *Salud* |
 |-----------+---------|
@@ -62,7 +62,7 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 | /Pablo anota que Riko empieza con Salud 3, ya que es una silbato Rojo./  |
 
 ** /Voluntad/
-La Voluntad inicial también depende del rango y es la siguiente:
+La Voluntad inicial de un personaje también depende del rango y es la siguiente:
 
 | *Silbato* | *Voluntad* |
 |-----------+------------|
@@ -174,16 +174,21 @@ Rasgos como Valiente o Intrépido pueden darte ventaja en estas pruebas, mientra
 Fallar en superar el Objetivo establecido por el GM en una prueba de Acero conlleva a una pérdida temporal del control de tu personaje. Puedes elegir si tu personaje opta por *Huir gritando*, quedarse *Pasmado*, *Desmayarse* o *Caer y enroscarse*.
 
 ** /Naturaleza/
-He aquí la piedra angular del juego. La Naturaleza de un personaje humano representa su /humanidad/, es decir, cómo en sintonía está con las habilidades y tendencias propias de un humano, en este caso.
+He aquí la piedra angular del juego. La Naturaleza de un personaje humano representa su /humanidad/, es decir, cómo en sintonía está con las habilidades y tendencias propias de un humano, en este caso. Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos, poseen aspectos asociados a ella.
 
 Descrita de esta forma, una alta Naturaleza indica un alma fuerte, muy humana, mientras que una baja Naturaleza indica una mayor conexión con el Abismo y las fuerzas corruptas que se bañan en su inexpugnable seno.
 
-Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos, poseen aspectos asociados a ella.
+Para determinar tu valor inicial de la Naturaleza, toma 4 como base y usa las siguientes preguntas como guía:
+
+/¿Sientes gran admiración hacia los Silbatos Blancos?/
++ Si tu respuesta es que sí, ?
+/¿Te aterran las historias de los exploradores veteranos?/
++ ?
+/¿Descenderías más de lo debido si tuvieras la oportunidad?/
++ ?
 
 *** Aspectos
-En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisión. Quizás una buena opción sean Construir, Curiosidad, Cazar y Astuto.
-
-Puesto que esta es solo una suposición, recomiendo encarecidamente que a la hora de sentarse a jugar el GM y los jugadores decidan los aspectos que crean más adecuados.
+En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisión. Quizás una buena opción sean Construir, Curiosidad, Cazar y Astuto. Puesto que esta es solo una suposición, recomiendo encarecidamente que a la hora de sentarse a jugar el GM y los jugadores decidan los aspectos que crean más adecuados.
 
 *** Variación
 Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo. Una buena comida y un sueño reparador con tus compañeros permite recuperar un punto de Naturaleza deteriorada.
@@ -192,14 +197,7 @@ Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al
 #+attr_org: :width 600
 [[./imgs/hideout.jpg]]
 
-Para determinar tu valor inicial de la Naturaleza, usa las siguientes preguntas como guía:
-
-/¿Sientes gran admiración hacia los Silbatos Blancos?/
-+ Si tu respuesta es que sí, ?
-/¿Te aterran las historias de los exploradores veteranos?/
-+ ?
-/¿Descenderías más de lo debido si tuvieras la oportunidad?/
-+ ?
+| /Los días que Riko pasa recuperándose de su herida en casa de Nanachi la ayudan a recuperar bastante Naturaleza que se le había deteriorado./ |
 
 El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la sección sobre la /Maldición del Abismo/.
 
@@ -440,12 +438,18 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 * *Maldición del Abismo*
 Las bestias no son el único peligro que asola a los humanos en el inframundo. La Maldición del Abismo es la prueba irrefutable de que el pozo corrompe, sea rápido o poco a poco, a todo aquel que osa desafiarlo.
 
+El verdadero enemigo de todo explorador es uno que no se puede ver ni tocar, contra el que no se puede luchar: la Maldición de Abismo. Es un fenómeno que se manifiesta cuando se pretende ascender desde las profundidades del Abismo y cuyos efectos se tornan cada vez más terribles en proporción a la profundidad desde la que se asciende.
+
+O dicho de otro modo, cuanto más bajo desciendas, más difícil será el camino de vuelta.
+
 #+attr_html: :width 800
 #+attr_org: :width 800
  [[./imgs/curse.png]]
 
 ** /Capas/
-El ascenso por las diferentes capas tiene efectos adversos para los personajes. Aplica los que correspondan al ascender 10 metros o más.
+El Abismo se divide en diversas capas muy diferenciadas entre ellas, tanto que incluso cada una tiene su propio ecosistema. Las criaturas que habitan en cada capa aparecen en la sección /Bestias y criaturas/, y la topografía y encuentros en cada capa las describiré en la sección /Exploración/.
+
+El ascenso por las diferentes capas tiene efectos adversos para los personajes. La Maldición les empieza a afectar al ascender 10 metros o más.
 
 *** Primera capa - *Borde del Abismo* (0~1350m)
  No hay pérdida de Naturaleza. Haz una prueba de Salud Ob 2.
@@ -514,7 +518,7 @@ La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da única
 #+attr_org: :width 600
 [[./imgs/friends.jpg]]
 
-Semejante hazaña requiere que dos personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que las dos gasten un punto de destino durante el proceso. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
+Semejante hazaña requiere que dichas personas que aparezcan en la sección de amigos del otro (no hace falta si son dos jugadores del mismo equipo), y que las dos gasten un punto de destino durante el proceso. Si no se dan ambos requisitos, los dos reciben la Maldición del Abismo.
 
 * *Exploración*
 El paisaje y entorno al que se enfrentan los personajes desesa ser explorado a fondo: especies nuevas que registrar, poderosas reliquias que desenterrar, el misterio de lo que se halla en las profundidades. El camino, sin embargo, es casi tan importante como el destino.
@@ -575,9 +579,9 @@ Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición 
 El rasgo de Narehate es uno especial: no puede ser eliminado ni cambiado de ningun modo, y únicamente se puede obtener por medio de la Maldición del Abismo. Tampoco tiene un nivel, mecánicamente se usa del mismo modo que un rasgo de nivel 2.
 
 ** /Ciudadano de la Ciudad Dorada/
-Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Para los más conocedores de los secretos prohibidos del Abismo, se les asigna la categoría de reliquia "Aubade", es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.
+Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad Dorada. Cualquier explorador daría lo que fuera por verla con sus propios ojos, si es que existe. Eres -o fuiste- uno de sus habitantes, hasta que ascendiste a los niveles superiores por obra del destino. Los más conocedores de los secretos prohibidos del Abismo saben que se les asigna la categoría de reliquia "Aubade", es decir, reliquias capaces de cambiar la historia del Abismo tal y como se conoce.
 
-Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+5e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m (+1D a la acción de Maniobra). Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
+Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+2e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m (+1D a la acción de Maniobra). Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
 
 #+attr_html: :width 600
 #+attr_org: :width 600
@@ -593,7 +597,7 @@ Para añadir algo de drama, añadiré una condición a las ya existentes:
 ** /Envenenado/
 Puedes quedar envenenado como resultado de una prueba o conflicto fallido contra flora o criaturas del Abismo. Para sanar el envenenamiento no se puede prescindir de un sanador como con las condiciones Herido y Enfermo. Por ello es una condición muy peligrosa para un jugador, ya que puede ser letal si no es tratada a tiempo.
 
-Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada cinco minutos después de quedar envenenado, debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran restando 1D más en las pruebas y -1 más a la disposición de conflictos. Si la cantidad restada a las pruebas supera tu valor actual de Voluntad, entras en un estado catatónico. Si supera tu valor actual de Salud, mueres.
+Mientras estés envenenado sufres una desventaja de -1D en todas las pruebas de Salud, Voluntad y Naturaleza, además de modificar con -1 la disposición de cualquier conflicto. Cada cinco minutos después de quedar envenenado (o diez si se ha hecho un torniquete), debes superar una prueba de Salud Ob.3 o los efectos del veneno empeoran restando 1D más en las pruebas y -1 más a la disposición de conflictos. Si la cantidad restada a las pruebas supera tu valor actual de Voluntad, entras en un estado catatónico. Si supera tu valor actual de Salud, mueres.
 
 De igual forma que con las condiciones Herido y Enfermo, un sanador puede superar una prueba Ob.3 para eliminar esta condición. Si falla, significa que ya es demasiado tarde para ti.
 
