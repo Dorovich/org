@@ -6,13 +6,27 @@
 * *Prefacio*
 Si bien posiblemente no hay sistema que puede englobar y describir toda la riqueza que emana el Abismo de Akihito Tsukushi, bajo mi criterio considero que Burning Wheel -o mejor dicho, la modificación usada para el juego de rol de Mouse Guard- es la opción que conozco que mejor se adapta a lo que pretendo ilustrar en las aventuras de los jugadores en este desolador agujero.
 
-Dicho esto, lo que pretenderé en este texto es dar las modificaciones necesarias al sistema de juego que he comentado para adaptarlo mecánicamente a las leyes por las que se rige el Abismo. Es decir, consideraré que ya se conoce el sistema Burning Wheel tal y como se introduce en el juego de rol de Mouse Guard.
+Dicho esto, lo que pretenderé en este texto es dar las modificaciones necesarias al sistema de juego que he comentado para adaptarlo mecánicamente a las leyes por las que se rige el Abismo. Es decir, consideraré que ya se conoce el sistema Burning Wheel tal y como se introduce en el juego de rol de Mouse Guard. Sin embargo, en la sección siguiente daré algunas pinceladas sobre el sistema en general por si no lo has leído.
 
 Debo advertir que haré referencia a eventos, escenarios y personajes que hacen su aparición hasta el tomo 10 del manga, así que debes esperar /spoilers/ si no has llegado hasta este punto de la trama.
 
-#+attr_html: :width 800
+#+attr_html: :width 100% :height auto
 #+attr_org: :width 800
 [[./imgs/The-Abyss.png]]
+
+* *Conociendo el sistema*
+En esta sección introduciré el sistema Burning Wheel simplificado que se usa como base para el juego de rol de Mouse Guard para aquellos que desconozcan su funcionamiento. He descrito las reglas para los jugadores, para más profundidad sobre lo que se puede hacer y lo que no, el GM debería leer el material original.
+
+#+attr_html: :width 80% :height auto
+#+attr_org: :width 600
+[[./imgs/burning_wheel_intro.png]]
+
+** /Material/
+** /Tiradas/
+** /Aptitudes y habilidades/
+** /Rasgos/
+** /Bestias y PNJs/
+** /Conflictos/
 
 * *Personajes*
 Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso.
@@ -37,7 +51,7 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 
 | /Pablo, el jugador de Riko decide que empieza la partida como una Silbato Rojo de 13 años de edad./ |
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/whistle.jpg]]
 
@@ -55,7 +69,7 @@ La Salud inicial de un personaje depende del rango y es la siguiente:
 
 En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/ouch.png]]
 
@@ -75,7 +89,7 @@ La Voluntad inicial de un personaje también depende del rango y es la siguiente
 
 De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental, adaptabilidad y perspicacia de un personaje.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/kaja.jpg]]
 
@@ -108,7 +122,7 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 /¿Es tu personaje duro, solitario y distante?/
 + Si es que sí, reduce tus Círculos en 1.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/gang.png]]
 
@@ -137,7 +151,7 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 /¿Distingues las herramientas de los exploradores y aprecias sus funciones?/
 + Si no es así, decrementa tus Recursos en 1.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/ilblu_shop.jpg]]
 
@@ -164,7 +178,7 @@ Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
 /¿Ha sido educado en un entorno competitivo?/
 + Incrementa tu Acero en 1 si la respuesta es sí.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/pain.jpg]]
 
@@ -193,7 +207,7 @@ En cuanto a los aspectos de la Naturaleza humana, resulta una complicada decisi�
 *** Variación
 Recuperar Naturaleza que haya sido deteriorada puede hacerse de forma similar al sistema original: mejorándola normalmente, tomándote un descanso de la exploración del Abismo, u opcionalmente recuperar un punto de Naturaleza deteriorada al inicio de cada sesión, por ejemplo. Una buena comida y un sueño reparador con tus compañeros permite recuperar un punto de Naturaleza deteriorada.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/hideout.jpg]]
 
@@ -204,14 +218,14 @@ El deterioro de Naturaleza y los efectos que conlleva lo discutiré en la secci�
 * *Bestias y criaturas*
 La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cada capa.
 
-#+attr_html: :width 800
+#+attr_html: :width 100% :height auto
 #+attr_org: :width 800
 [[./imgs/criaturas.png]]
 
 ** /Primera capa/
 *** Colmillo de Seda (Gokoge)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Silkfang_Anime_Square.png]]
 
@@ -220,7 +234,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Pico Martillo
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Hammerbeak_Anime_Square.png]]
 
@@ -229,7 +243,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Trucha Demoníaca (Gankimasu)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Demonfish_Anime_Square.png]]
 
@@ -239,7 +253,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Segunda capa/
 *** Cadáver Llorón (Nakikabane)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Corpse_Weeper_Anime_Square.png]]
 
@@ -248,7 +262,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Inbyo
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Inbyo_Anime_Square.png]]
 
@@ -257,7 +271,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Ottobas (Ottobasu)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Ottobas_Anime_Square.png]]
 
@@ -271,7 +285,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Rohana
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Rohana_Anime_Square.png]]
 
@@ -281,7 +295,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Tercera capa/
 *** Madokajack
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Madokajack.png]]
 
@@ -290,7 +304,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Sierpe Carmesí (Benikuchinawa)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Crimson_Splitjaw_Anime_Square.png]]
 
@@ -299,7 +313,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Neritantan
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Neritantan_Anime_Square.png]]
 
@@ -308,7 +322,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 
 *** Amakagame
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Amakagame_Anime_Square.png]]
 
@@ -318,7 +332,7 @@ La fauna del Abismo es tan peculiar como imprevisible, y se distribuye entre cad
 ** /Cuarta capa/
 *** Orbe Perforador (Tamaugachi)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Orb_Piercer_Square.png]]
 
@@ -332,7 +346,7 @@ Territorial, Agujas venenosas, Ágil, Implacable
 
 *** Oso Seta (Takeguma)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Shroombear_Square.png]]
 
@@ -342,7 +356,7 @@ Territorial, Agujas venenosas, Ágil, Implacable
 ** /Quinta capa/
 *** Hidra del Desierto (Kasshogashira)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Stingerhead_Anime_Square.png]]
 
@@ -351,7 +365,7 @@ Astuto, Empalar, Cavar túneles, Depredador
 
 *** Hamashirama
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Hamashirama_Anime.png]]
 
@@ -361,7 +375,7 @@ Astuto, Empalar, Cavar túneles, Depredador
 ** /Sexta capa/
 *** Meinastoirim
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Meinastilim_Anime_Square.png]]
 
@@ -375,7 +389,7 @@ Astuto, Empalar, Cavar túneles, Depredador
 
 *** Kuongatari
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Amaranthine-Deceptor_Anime.png]]
 
@@ -384,7 +398,7 @@ Mimetizarse, Moverse en enjambre, Volar, Entrar en orificios
 
 *** Dragón Molusco (Ryuusazai)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Turbinid-Dragon_Anime_Square.png]]
 
@@ -393,7 +407,7 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 
 *** Misoujack
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Mizoujack_Sketch_by_Lyza_Anime.png]]
 
@@ -402,7 +416,7 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 
 *** Fuzosheppu
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Fuzosheppu_Anime_Square.png]]
 
@@ -411,7 +425,7 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 
 *** Rata Hermitaña (Yadone)
 
-#+attr_html: :width 400
+#+attr_html: :width 55% :height auto
 #+attr_org: :width 400
 [[./imgs/Hermit_Rat.png]]
 
@@ -442,7 +456,7 @@ El verdadero enemigo de todo explorador es uno que no se puede ver ni tocar, con
 
 O dicho de otro modo, cuanto más bajo desciendas, más difícil será el camino de vuelta.
 
-#+attr_html: :width 800
+#+attr_html: :width 100% :height auto
 #+attr_org: :width 800
  [[./imgs/curse.png]]
 
@@ -514,7 +528,7 @@ En caso que tu Naturaleza alcanze el valor máximo de 7, tu personaje pierde tod
 ** /Bendición/
 La Bendición del Abismo es un fenómeno extremadamente peculiar, y se da únicamente en circunstancias específicas. Hacen falta dos personas con un gran vínculo emocional entre ellas, y que una reciba todo el peso de la Maldición durante el ascenso desde la sexta capa (al menos). Si sobrevive a la Maldición, la otra persona es perdonada y obtiene la Bendición. Ambas reciben el Rasgo de /Narehate/, pero se les aplican reglas distintas.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/friends.jpg]]
 
@@ -528,7 +542,7 @@ La falta de una fuente de luz durante un conflicto que use Salud como base en un
 
 * *Reliquias de las Profundidades*
 
-#+attr_html: :width 800
+#+attr_html: :width 100% :height auto
 #+attr_org: :width 800
 [[./imgs/relics.jpg]]
 
@@ -540,7 +554,7 @@ Un escalador se dedica generalmente a trepar y descender simas y paredes montañ
 
 Los escaladores pueden usar mapas creados por cartógrafos y herramientas creadas por herreros como suministros.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/exploring.jpg]]
 
@@ -561,7 +575,7 @@ Los nuevos rasgos introducidos y sus cualidades son los siguientes:
 ** /Tocado por el Abismo/
 Tus viajes a las profundidades te han pasado factura. El rasgo a nivel 1 indica que sufres cambios fisiológicos menores que se manifiestan de vez en cuando (necesidad de usar lentes para evitar dolor de cabeza, pérdida de uñas, baja estatura inususal o piel seca). A nivel 2 se tornan permanentes. A nivel 3 los cambios de vuelven mayores (irises negros como la tez, palidez extrema, comportamiento animalista, una dudosa moralidad, musculatura anormal, dificultades siendo socialmente aceptable).
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/ozen.jpg]]
 
@@ -572,7 +586,7 @@ Si eras humano, tu forma queda deformada para siempre. Tu cuerpo queda reducido 
 
 Todos los Narehate pueden ver el flujo de Consciencias creado por la Maldición del Abismo, además de en qué lugares es más fuerte, débil, o inexistente. A sus ojos es parecida a una niebla que tinta los alrededores de un todo azulado. Por esto obtienes Conocimiento del flujo de Consciencias a nivel 2. Puedes usar esta habilidad para ayudar a tus compañeros indicando lugares más seguros para ascender.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/mitty_and_nanachi.jpg]]
 
@@ -583,7 +597,7 @@ Se dice que el profundidades del Abismo se encuentra verdaderamente una Ciudad D
 
 Puesto que no son realmente humanos sino robots muy parecidos a ellos, todo Ciudadano de la Ciudad Dorada tiene como valor máximo de Salud 7, y suelen empezar con un valor inicial de 6. Poseen además un arma única, el /Lanzallamas/ (+2e a un ataque con éxito. Tiene cargas limitadas. Quedas inconsciente durante 2 horas al acabar el conflicto), y brazos que se extienden como ganchos hasta 40m (+1D a la acción de Maniobra). Adicionalmente, recuperarse de las condiciones Cansado, Herido y Enfermo es siempre Ob.2 para ellos, y son inmunes a los efectos de la Maldición del Abismo.
 
-#+attr_html: :width 600
+#+attr_html: :width 75% :height auto
 #+attr_org: :width 600
 [[./imgs/Reg_sketch.png]]
 
