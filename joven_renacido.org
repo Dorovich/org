@@ -1,0 +1,23 @@
+* JOVEN RENACIDO
+[...]
+
+** /Posesiones/
++ Arco con d6+12 flechas
++ d3+1 granadas caseras (daño como Desarmado. El objetivo debe superar una prueba de Suerte o quedar aturdido, y el siguiente ataque que reciba obtendrá +2 en su tirada de daño)
++ Una actitud algo egoísta
++ Estilo de lucha poco refinado
+
+** /Habilidades avanzadas/
+3 Sigilo
+3 Astucia
+2 Hechizo - Robo
+1 Hechizo - Clarividencia
+1 Nadar
+
+
+
+*Robo* (3)
+El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto aparece en la mano del mago. Si era portado por otra criatura, el resultado será aleatorio.
+
+*Clarividencia* (2)
+El mago invoca un grupo de hadas, las cuales buscarán trampas o enemigos del mago (a elección) en un radio de 50 metros. Cuando terminen, anunciarán la cantidad que haya y la dirección en la que se encuentren antes de desvanecerse.

@@ -1,0 +1,68 @@
+* Habilidades
+
+** Pícaro
+Un pícaro se dedica a los trucos de cartas, juegos de manos, carterismo u otro tipo de juegos sucios.
+
+Los pícaros pueden usar artilugios creados por herreros o disfraces hechos por tejedores como suministros.
+
+- /(La aptitud base de Pícaro es la Salud.)/
+
+*** Factores para Pícaro
+[...]
+
+*** Sugerencias de ayuda para Pícaro
+Persuasivo, Embaucador y los Conocimientos apropiados.
+
+** Artista
+Los artistas se dedican a la creación de piezas y obras que reflejan cierto significado o aptitud. Esta habilidad engloba la poesía, escultura, pintura, artes escénicas y música.
+
+Los artistas pueden usar herramientas hechas por herreros o carpinteros como suministros.
+
+- /(La aptitud base de Artista es la Voluntad.)/
+
+*** Factores para Artista
+/Complejidad/: Sencilla, Moderada, Complicada, Abrumadora, Obra maestra
+
+*** Sugerencias de ayuda para Artista
+Los Conocimientos apropiados.
+
+** Matemático
+Los matemáticos se dedican al cálculo, análisis y estudio de superfícies, objetos, secuencias, ondas u otro tipo de fenómenos. Su oficio es extremadamente versátil, ya que las matemátiacs se aplican en todas las ciencias.
+
+- /(La aptitud base de Artista es la Voluntad.)/
+- /(Se puede usar Matemático para ayudar a las habilidades Administrador, Científico y Cartógrafo.)/
+
+*** Factores para Matemático
+[...]
+
+*** Sugerencias de ayuda para Matemático
+Científico y los Conocimientos apropiados.
+
+* Rasgos
+
+** Cobarde
+Los ratones cobardes no hacen apuestas ni compromisos de gran importancia, lo que les evita muchas situaciones complicadas y dolores de cabeza. Sim embargo, tal reputación puede alejar a aquellos que confían en ti o a los necesitados.
+
+** Sádico
+Un ratón sádico siente atracción por el sufrimiento y la humillación de otros, y procura hurdir situaciones para que tomen ese camino. La situación se complica en un ambiente social regido por el respeto, como un juzgado o una corte.
+
+** Apático
+Un ratón apático no se deja llevar por las emociones, sean propias o de otros. Esto les evita ser convencidos con facilidad, pero su gran falta de consideración puede volverlos solitarios y distantes.
+
+** Adicto
+Los padres de los jóvenes ratones les advierten de ciertas plantas con efectos adictivos. Este ratón sucumbió a alguna. Siente gran relajación después de consumirla, pero su humor cambiará si pasa mucho tiempo sin tenerla cerca.
+
+** Torpe
+Dicen que el fallo es un paso natural en el aprendizaje, pero este ratón es el colmo. Hace falta que un ratón torpe memoriza cada paso del camino para no cometer una imprudencia, y la sabiduría de mil tropiezos suele ser de ayuda.
+
+** Sensible
+Comprender las emociones y los detalles de otros es el punto fuerte de un ratón sensible. Sin embargo, esta gran influencia de los demás suele hacer que los problemas de otros se conviertan en los propios.
+
+** Paranoico
+Para los ratones paranoicos, el peligro acecha en cada esquina. Siempre revisan y se aseguran que todo sea lo que debe ser. Esto puede evitar sorpresas desagradables, pero tal obsesión suele ser una molesta pérdida de tiempo.
+
+** Crédulo
+Un ratón crédulo tomará como cierta cualquier historia o consejo que se le plantee. Su inocencia les hace aprender con facilidad, y por el camino caer en grandes embustes.
+
+** Elegante
+Los ratones elegantes se preocupan por cosas como el perfume que se pondrán al salir o si la ropa que llevan conjunta con su sombrero. Esto puede causar una buena impresión a algunos, pero también atraer malas miradas en el lugar equivocado.
