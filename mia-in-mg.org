@@ -18,15 +18,49 @@ Debo advertir que haré referencia a eventos, escenarios y personajes que hacen 
 En esta sección introduciré el sistema Burning Wheel simplificado que se usa como base para el juego de rol de Mouse Guard para aquellos que desconozcan su funcionamiento. He descrito las reglas para los jugadores, para más profundidad sobre lo que se puede hacer y lo que no, el GM debería leer el material original.
 
 #+attr_html: :width 80% :height auto
-#+attr_org: :width 600
+#+attr_org: :width 800
 [[./imgs/burning_wheel_intro.png]]
 
 ** /Material/
+Para jugar hacen falta alrededor de una docena de dados de seis caras, llamados simplemente "D" para abreviar. Además, cada jugador necesitará un papel y lápiz u otros utensilios para llevar la cuenta de los personajes y sus atributos, y el GM tabién para anotar cualquier tipo de información u ocurrencia de las aventuras de los jugadores.
+
 ** /Tiradas/
+Antes de nada, recordar que cuando escribo "6D" o "2D" (por ejemplo), me refiero a que se van a tirar 6 o 2 dados de seis caras, respectivamente. En este juego, los dados se interpretan de manera individual: un único dado cuenta como éxito o como fracaso, y en una prueba se suelen contar varios éxitos o fracasos una vez los dados han sido tirados.
+
+Para superar una prueba normalmente se busca tener cierto número de éxitos en una tirada, proporcional a la dificultad de lo que se pretende conseguir (llamada /Obstáculo/, o simplemente /Ob/). Por ejemplo, cruzar unos rápidos podría suponer una prueba de Salud Ob 3, lo que significa que se requieren al menos 3 éxitos en una prueba de Salud para cruzarlo sin problemas.
+
+En general dos tipos de tiradas diferentes: las independientes y las enfrentadas.
+
+*** Pruebas independientes
+Las pruebas independientes consisten en un objetivo fijo, como el ejemplo descrito anteriormente.
+
+*** Pruebas enfrentadas
+Las pruebas enfrentadas son realizadas por dos personajes intentándose superar mutuamente. Por ejemplo, una discusión donde un personaje intenta convencer a uno que se niega a algo sería una prueba enfrentada de Persuasivo contra Voluntad, respectivamente. En este tipo de pruebas, aquel que logre más éxitos en su tirada logra su objetivo. Para situaciones complejas que sean de gran importancia en la trama y los personajes, consulta la sección Conflictos.
+
 ** /Aptitudes y habilidades/
+[...]
+
+*** Ayuda en pruebas
+
 ** /Rasgos/
+[...]
+
 ** /Bestias y PNJs/
+[...]
+
 ** /Conflictos/
+Las reglas para un Conflicto se usan en situaciones complejas y tan importantes que es preciso analizar en detalle: los puntos de inflexión en la historia.
+
+|            | *Ataque* | *Defensa* | *Finta* | *Maniobra* |
+| *Ataque*   | I        | E         | *       | E          |
+| *Defensa*  | E        | I         | *       | E          |
+| *Finta*    | *        | *         | E       | I          |
+| *Maniobra* | E        | E         | I       | I          |
+
+*** Ataque
+*** Defensa
+*** Finta
+*** Maniobra
 
 * *Personajes*
 Por ahora, consideraré que todos los personajes jugadores son humanos de Orth para evitar complicaciones. Más adelante introduciré a los Narehate como personajes jugables, y la transformación de un humano en uno, diérase el caso.
@@ -186,6 +220,22 @@ Rasgos como Valiente o Intrépido pueden darte ventaja en estas pruebas, mientra
 
 *** Pruebas de Acero fallidas
 Fallar en superar el Objetivo establecido por el GM en una prueba de Acero conlleva a una pérdida temporal del control de tu personaje. Puedes elegir si tu personaje opta por *Huir gritando*, quedarse *Pasmado*, *Desmayarse* o *Caer y enroscarse*.
+
+** /Percepción/
+Percepción mide cómo de consciente es tu personaje de lo que le rodea y cómo de atento está. Se pone a prueba, por ejemplo, cuando se busca información, pistas o bien divisar algo en la distancia.
+
+| *Silbato* | *Percepción* |
+|-----------+--------------|
+| Cascabel  |            2 |
+| Rojo      |            2 |
+| Azul      |            3 |
+| Lunar     |            4 |
+| Negro     |            5 |
+| Blanco    |            5 |
+
+#+attr_html: :width 75% :height auto
+#+attr_org: :width 600
+[[./imgs/looking.jpg]]
 
 ** /Naturaleza/
 He aquí la piedra angular del juego. La Naturaleza de un personaje humano representa su /humanidad/, es decir, cómo en sintonía está con las habilidades y tendencias propias de un humano, en este caso. Las criaturas nativas del Abismo también tienen Naturaleza. De igual forma que para los humanos, poseen aspectos asociados a ella.
@@ -433,7 +483,6 @@ Poderoso, Destructor, Gigantesco, Escamas venenosas
 ???
 
 ** /Otras criaturas/
-
 *** Narehate (Maldito)
 
 *Naturaleza Narehate (Maldito) 1*
