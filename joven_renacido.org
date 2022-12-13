@@ -3,6 +3,8 @@
 #+author: Dorovich
 #+options: \n:t num:nil timestamp:nil
 
+[...]
+
 ** /Posesiones/
 + Arco con d6+12 flechas
 + d3+1 granadas caseras (daño como Desarmado. El objetivo debe superar una prueba de Suerte o quedar aturdido, y el siguiente ataque que reciba obtendrá +2 en su tirada de daño)
@@ -17,6 +19,7 @@
 + 1 Nadar
 
 
+|---|
 
 *Robo* (3)
 El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto aparece en la mano del mago. Si era portado por otra criatura, el resultado será aleatorio.
