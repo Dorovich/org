@@ -1,3 +1,8 @@
+#+title: Joven Renacido
+#+subtitle: Un trasfondo para Troika!
+#+author: Dorovich
+#+options: \n:t num:t timestamp:nil
+
 * JOVEN RENACIDO
 [...]
 
