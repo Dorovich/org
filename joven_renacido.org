@@ -19,7 +19,6 @@
 + 1 Nadar
 
 
-|---|
 
 *Robo* (3)
 El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto aparece en la mano del mago. Si era portado por otra criatura, el resultado será aleatorio.
