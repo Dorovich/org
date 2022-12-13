@@ -66,3 +66,50 @@ Un ratón crédulo tomará como cierta cualquier historia o consejo que se le pl
 
 ** Elegante
 Los ratones elegantes se preocupan por cosas como el perfume que se pondrán al salir o si la ropa que llevan conjunta con su sombrero. Esto puede causar una buena impresión a algunos, pero también atraer malas miradas en el lugar equivocado.
+
+* Condiciones
+
+** Cambios y adiciones
+
+*** Hambriento/Sediento
+
+- Estar Hambriento/Sediento conlleva substraer 1 de la disposición de cualquier conflicto.
+
+- Para recuperarse de estar Hambriento/Sediento debe consumir algo de comida y bebida cuando haya un tiempo para descansar.
+
+*** Enfadado
+
+- Estar Enfadado conlleva substraer 1 de la disposición de cualquier conflicto que use Voluntad como base.
+
+- Para recuperarse de estar Enfadado se debe superar una prueba de Voluntad Ob 2.
+
+*** Cansado
+
+- Estar Cansado conlleva substraer 1 de la disposición de cualquier conflicto.
+
+- Para recuperarse de estar Cansado se debe superar una prueba de Salud Ob 3. Aumenta el obstáculo en 1 si en el turno anterior usaste un Escudo o Armadura pesada (aumenta en 2 si se han dado ambos).
+
+*** Asustado
+
+- Estar Asustado implica no poder ofrecer ayuda ni poder usar la Suerte del Principiante (se puede usar Naturaleza en lugar de la habilidad de la prueba).
+
+- Para recuperarse de estar Asustado se debe superar una prueba de Voluntad Ob 3.
+
+*** Herido
+
+- Estar Herido conlleva substraer 1 de la disposición de cualquier conflicto, además de restar 1D de cualquier prueba de Naturaleza, Salud, Voluntad o habilidades (no se aplica a las pruebas para recuperarse de condiciones).
+
+- Para recuperarse de estar Herido se debe superar una prueba de Salud Ob 4. Un sanador puede eliminar esta condición si supera una prueba de Sanador Ob 3.
+
+- Opcionalmente, si se prescinde de la atención de un sanador (o si éste falla la prueba), se puede eliminar la condición de Herido y sufrir una herida permanente (reduce permanentemente en 1 la Naturaleza, Salud, o una habilidad que tenga como base Salud).
+
+*** Enfermo
+
+- Estar Enfermo conlleva substraer 1 de la disposición de cualquier conflicto, además de restar 1D de cualquier prueba de Naturaleza, Salud, Voluntad o habilidades (no se aplica a las pruebas para recuperarse de condiciones). Mientras esté enfermo, un ratón no podrá avanzar ni mejorar sus habilidades ni aptitudes.
+
+- Para recuperarse de estar Enfermo se debe superar una prueba de Voluntad Ob 4. Un sanador puede eliminar esta condición si supera una prueba de Sanador Ob 3.
+
+- Opcionalmente, si se prescinde de la atención de un sanador (o si éste falla la prueba), se puede eliminar la condición de Enfermo y sufrir una herida permanente (reduce permanentemente en 1 la Naturaleza, Voluntad, o una habilidad que tenga como base Voluntad).
+
+** Orden de recuperación
+El nuevo orden de recuperación de las condiciones es: *Hambriento/Sediento -> Enfadado -> Asustado -> Cansado -> Herido -> Enfadado*.
