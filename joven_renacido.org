@@ -3,9 +3,6 @@
 #+author: Dorovich
 #+options: \n:t num:nil timestamp:nil
 
-* JOVEN RENACIDO
-[...]
-
 ** /Posesiones/
 + Arco con d6+12 flechas
 + d3+1 granadas caseras (daño como Desarmado. El objetivo debe superar una prueba de Suerte o quedar aturdido, y el siguiente ataque que reciba obtendrá +2 en su tirada de daño)
