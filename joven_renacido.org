@@ -13,11 +13,11 @@
 + Estilo de lucha poco refinado
 
 ** /Habilidades avanzadas/
-3 Sigilo
-3 Astucia
-2 Hechizo - Robo
-1 Hechizo - Clarividencia
-1 Nadar
++ 3 Sigilo
++ 3 Astucia
++ 2 Hechizo - Robo
++ 1 Hechizo - Clarividencia
++ 1 Nadar
 
 
 
