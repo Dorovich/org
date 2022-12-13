@@ -2,38 +2,38 @@
 #+author: Dorovich
 #+options: \n:t num:nil timestamp:nil
 
-* *Caballera de la Seda*
+* Caballera de la Seda
 Fuiste nombrada escudera por la Reina cuando eras una joven oruga. Ahora, bajo sus órdenes, realizas peculiares encargos secretos en el exatranjero. Todo sea por el linaje.
 
-/*Posesiones*/
-Manojo de seda
-d6 agujas de porcelana (daño como cuchillo)
-Capa blanca ceremonial
-Carta con una misión de la Reina
-Terrible miedo a la oscuridad
+** /Posesiones/
++ Manojo de seda
++ d6 agujas de porcelana (daño como cuchillo)
++ Capa blanca ceremonial
++ Carta con una misión de la Reina
++ Terrible miedo a la oscuridad
 
-/*Habilidades avanzadas*/
-3 Tejer
-3 Hechizo - Ecdisis
-2 Hechizo - Luz
-1 Lucha con Agujas
-1 Etiqueta
-1 Volar
+** /Habilidades avanzadas/
++ 3 Tejer
++ 3 Hechizo - Ecdisis
++ 2 Hechizo - Luz
++ 1 Lucha con Agujas
++ 1 Etiqueta
++ 1 Volar
 
-* *Portabanderas*
+* Portabanderas
 A veces los tratos salen mal. Otras veces, el pequeño acuerdo que hiciste con la inocente ardilla del bosque acaba tergiversado por la kafkiana red de pactos interesferales y acabas maldito por algun brujo loco o en manos de algun que otro demonio. Otras veces salen bien, por suerte.
 
-O BIEN
+/O BIEN/
 
 Tu bandera es la cuspide del arte entre el millar de esferas, y todos deberian conocerla y postrarse ante ella. El mago que conjuro esa terrible maldicion sobre ti parece que no pensaba lo mismo.
 
-/*Posesiones*/
-Bandera con asta portable
+** /Posesiones/
++ Bandera con asta portable
 
-/*Habilidades avanzadas*/
+** /Habilidades avanzadas/
 
-/*Especial*/
-Estas maldito. Cuando crees tu personaje tira una vez en esta tabla:
+** /Especial/
+- Estás maldito. Cuando crees tu personaje tira una vez en esta tabla:
 
 | *d6* | *Maldicion*                                                                                                     |
 |------+-----------------------------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Estas maldito. Cuando crees tu personaje tira una vez en esta tabla:
 |    5 | Eres incapaz de orientarte, ni siquiera sabes distinguir izquierda de derecha.                                  |
 |    6 | Rompes una ley cada vez que entras en un asentamiento. Siempre hay prueba de ello, de alguna manera.            |
 
-#+attr_html: :width 500
+#+attr_html: :width 50%
 #+attr_org: :width 500
 [[./imgs/bannerbearer.jpg]]
 
