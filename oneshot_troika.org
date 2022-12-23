@@ -142,11 +142,11 @@ Daño como Bestia grande o Arma
 *Especial*
 De acuerdo al coro demoniaco al que pertenece
 
-| *#* | Mien de demonio |
-|-----+-----------------|
-|   1 | Presumido       |
-|   2 | Engañoso        |
-|   3 | Siniestro       |
-|   4 | Codicioso       |
-|   5 | Paranoico       |
-|   6 | Desinteresado   |
+| *d6* | *Mien de demonio* |
+|------+-------------------|
+|    1 | Presumido         |
+|    2 | Engañoso          |
+|    3 | Siniestro         |
+|    4 | Codicioso         |
+|    5 | Paranoico         |
+|    6 | Desinteresado     |

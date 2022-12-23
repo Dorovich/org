@@ -1,5 +1,5 @@
 #+title: Made in Abyss - el juego de rol
-#+subtitle: Usando el sistema Burning Wheel (Mouse Guard RPG)
+#+subtitle: Usando el sistema Burning Wheel (Mouse Guard RPG y Torchbearer)
 #+author: Dorovich
 #+options: \n:t num:t timestamp:nil
 
@@ -92,14 +92,14 @@ Con tal de mantener algo de consistencia, recomiendo que los jugadores empiezen 
 ** /Salud/
 La Salud inicial de un personaje depende del rango y es la siguiente:
 
-| *Silbato* | *Salud* |
-|-----------+---------|
-| Cascabel  |       2 |
-| Rojo      |       3 |
-| Azul      |       4 |
-| Lunar     |       4 |
-| Negro     |       5 |
-| Blanco    |       6 |
+| *Silbato* | *Salud inicial* |
+|-----------+-----------------|
+| Cascabel  |               2 |
+| Rojo      |               3 |
+| Azul      |               4 |
+| Lunar     |               4 |
+| Negro     |               5 |
+| Blanco    |               6 |
 
 En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa en situaciones donde se requiere fuerza bruta o resistencia, tal y como se describe en el sistema original.
 
@@ -112,14 +112,14 @@ En lo que se refiere a Salud no hace falta cambiar ningún aspecto. Salud se usa
 ** /Voluntad/
 La Voluntad inicial de un personaje también depende del rango y es la siguiente:
 
-| *Silbato* | *Voluntad* |
-|-----------+------------|
-| Cascabel  |          1 |
-| Rojo      |          2 |
-| Azul      |          3 |
-| Lunar     |          4 |
-| Negro     |          5 |
-| Blanco    |          6 |
+| *Silbato* | *Voluntad inicial* |
+|-----------+--------------------|
+| Cascabel  |                  1 |
+| Rojo      |                  2 |
+| Azul      |                  3 |
+| Lunar     |                  4 |
+| Negro     |                  5 |
+| Blanco    |                  6 |
 
 De igual forma que Salud, la Voluntad sigue cumpliendo sus mismas funciones: la fortaleza mental, adaptabilidad y perspicacia de un personaje.
 
@@ -134,14 +134,14 @@ Dado que la mayoría de los niveles del Abismo no tienen población humana algun
 
 Daré algo de forma a Círculos añadiendo que podemos agregar +1D a una prueba de Círculos si buscamos algo en nuestro barrio natal de Orth, o bien del orfanato Belchero. Tambén lo podemos obtener usando nuestro Silbato para llamar a otros exploradores dentro del Abismo.
 
-| *Silbato* | *Círculos* |
-|-----------+------------|
-| Cascabel  |          1 |
-| Rojo      |          2 |
-| Azul      |          3 |
-| Lunar     |          3 |
-| Negro     |          4 |
-| Blanco    |          4 |
+| *Silbato* | *Círculos iniciales* |
+|-----------+----------------------|
+| Cascabel  |                    1 |
+| Rojo      |                    2 |
+| Azul      |                    3 |
+| Lunar     |                    3 |
+| Negro     |                    4 |
+| Blanco    |                    4 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Círculos iniciales fluctúan:
 
@@ -165,14 +165,14 @@ En Mouse Guard, los Recursos de un personaje se refiere entre otras cosas a su p
 
 Por tanto, diremos que los Recursos de cierto personaje son la medida en que éste está bien equipado, preparado para las ocurrencias del Abismo, y su capacidad de usar su entorno en su beneficio.
 
-| *Silbato* | *Recursos* |
-|-----------+------------|
-| Cascabel  |          1 |
-| Rojo      |          2 |
-| Azul      |          3 |
-| Lunar     |          4 |
-| Negro     |          5 |
-| Blanco    |          5 |
+| *Silbato* | *Recursos inicales* |
+|-----------+---------------------|
+| Cascabel  |                   1 |
+| Rojo      |                   2 |
+| Azul      |                   3 |
+| Lunar     |                   4 |
+| Negro     |                   5 |
+| Blanco    |                   5 |
 
 Además, todo jugador debe responder a las siguientes preguntas para ver si sus Recursos iniciales fluctúan:
 
@@ -192,14 +192,14 @@ Además, todo jugador debe responder a las siguientes preguntas para ver si sus 
 ** /Acero/
 El Acero es un atributo que representa los nervios de tu personaje. Se pone a prueba cuando quedas conmocionado o sorprendido en situaciones que requieren actuar sin vacilar, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
 
-| *Silbato* | *Acero* |
-|-----------+---------|
-| Cascabel  |       1 |
-| Rojo      |       2 |
-| Azul      |       3 |
-| Lunar     |       3 |
-| Negro     |       4 |
-| Blanco    |       5 |
+| *Silbato* | *Acero inicial* |
+|-----------+-----------------|
+| Cascabel  |               1 |
+| Rojo      |               2 |
+| Azul      |               3 |
+| Lunar     |               3 |
+| Negro     |               4 |
+| Blanco    |               5 |
 
 Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
 
@@ -224,14 +224,14 @@ Fallar en superar el Objetivo establecido por el GM en una prueba de Acero conll
 ** /Percepción/
 Percepción mide cómo de consciente es tu personaje de lo que le rodea y cómo de atento está. Se pone a prueba, por ejemplo, cuando se busca información, pistas o bien divisar algo en la distancia.
 
-| *Silbato* | *Percepción* |
-|-----------+--------------|
-| Cascabel  |            2 |
-| Rojo      |            2 |
-| Azul      |            3 |
-| Lunar     |            4 |
-| Negro     |            5 |
-| Blanco    |            5 |
+| *Silbato* | *Percepción inicial* |
+|-----------+----------------------|
+| Cascabel  |                    2 |
+| Rojo      |                    2 |
+| Azul      |                    3 |
+| Lunar     |                    4 |
+| Negro     |                    5 |
+| Blanco    |                    5 |
 
 #+attr_html: :width 75% :height auto
 #+attr_org: :width 600
@@ -668,3 +668,5 @@ De igual forma que con las condiciones Herido y Enfermo, un sanador puede supera
 
 * *Conflictos (ejemplos)*
 | /Al llegar a la cuarta capa, Riko y Reg entran en el territorio de un Orbe Perforador, que les planta cara. El GM declara un conflicto y se deciden los objetivos. El Orbe Perforador pretende asesinar a los intrusos, mientras que Reg y Riko pretenden huir a una zona segura./ |
+
+Los conflictos son una parte esencial del sistema. Se usan en situaciones que es necesario analizar tramo a tramo, como un combate, una discusión o una persecución, por ejemplo.
