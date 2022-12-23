@@ -3,13 +3,9 @@
 #+author: Dorovich & Darkfenix
 #+options: \n:t num:nil timestamp:nil
 
-#+attr_html: :width 50% :height auto
-#+attr_org: :width 400
+#+attr_html: :width 75% :height auto
+#+attr_org: :width 600
 [[./imgs/joven_renacido_clr.png]]
-
-#+attr_html: :width 50% :height auto
-#+attr_org: :width 400
-[[./imgs/joven_renacido_bw.png]]
 
 Solías ser un deshecho de la sociedad, pero tu vida miserable dio un vuelco cuando el destino te propició un azote mortal. Creías que tu final se hallaría en el cielo o algo por el estilo, pero la diosa que encontraste no te ofreció tal opción. Ahora cargas con el futuro de un mundo desconocido en tus hombros, y por muchos impedimentos que haya en el camino no podría serte más irrelevante.
 
