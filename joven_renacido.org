@@ -23,8 +23,8 @@ Solías ser un deshecho de la sociedad, pero tu vida miserable dio un vuelco cua
 + 1 Nadar
 
 ** /Anexo: Hechizos/
-*Robo* (3)
-El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto aparece en la mano del mago. Si era portado por otra criatura, el resultado será aleatorio.
+*Robo* (2)
+El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto (u otro de similar importancia) aparece en la mano del mago si este supera una prueba de suerte.
 
 *Clarividencia* (2)
 El mago invoca un grupo de hadas, las cuales buscarán trampas o enemigos del mago (a elección) en un radio de 50 metros. Cuando terminen, anunciarán la cantidad que haya y la dirección en la que se encuentren antes de desvanecerse.
