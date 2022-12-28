@@ -12,7 +12,7 @@
 ** /Posesiones/
 + Botella de leche (cuenta como una provisión que recupera d3+3 estamina)
 + Manual del Dragón
-+ Amuleto del la aldea Tot
++ Amuleto del la aldea Kot
 + Kit para acicalarse
 
 ** /Habilidades avanzadas/
