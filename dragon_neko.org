@@ -1,0 +1,28 @@
+#+title: Neko-Dragón
+#+subtitle: Un trasfondo para Troika!
+#+author: Dorovich & NekoRyu
+#+options: \n:t num:nil timestamp:nil
+
+#+attr_html: :width 70% :height auto
+#+attr_org: :width 500
+[[./imgs/dragon_neko.jpg]]
+
+[Descripción]
+
+** /Posesiones/
+
+** /Habilidades avanzadas/
++ 2 Volar
++ 2 Hechizo - Bola de fuego
++ 2 Acrobacias
++ 2 Ocultarse
++ 1 Lucha con Garras
++ 1 Persuasión
+
+** /Especial/
+Eres descendiente de una familia de dragones, tu piel es immune al fuego. La otra mitad de tu familia son felinos, puedes ver en la oscuridad, además posees gran agudeza sonora.
+
+** /Anexo/
+*** Habilidades
+*Ocultarse*
+Capacidad de estrujarse en huecos estrechos y otros espacios reducidos.

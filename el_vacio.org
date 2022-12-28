@@ -1,0 +1,36 @@
+#+title: El Vacío
+#+subtitle: Un trasfondo para Troika!
+#+author: Dorovich & Mr. Kiwi
+#+options: \n:t num:nil timestamp:nil
+
+#+attr_html: :width 35% :height auto
+#+attr_org: :width 200
+[[./imgs/el_vacio.png]]
+
+[Descripción]
+
+** /Posesiones/
++ 3 Cistoides (daño como desarmado, si aciertan el objetivo debe superar una prueba de suerte o quedar radiado (como envenedado, se puede acumula). Se recupera 1 Cistoide después de cada combate o al final de cada día).
++ Tentáculos (daño como bestia Modesta).
+
+** /Habilidades avanzadas/
++ 2 Imitar forma
++ 2 Hechizo - Invisibilidad
++ 2 Hechizo - Carga psiónica (como Jolt)
++ 2 Intimidar
++ 1 Hechizo - Control mental
++ 1 Hechizo - Compañero fantasma
+
+** /Especial/
+
+** /Anexo/
+*** Habilidades
+*Imitar forma*
+Permite redistribuir tus partículas para tomar la forma de un objeto o criatura de tamaño similar al propio.
+
+*** Hechizos
+*Control Mental* (1)
+El Éter es un material maleable capaz de adentrarse en los pensamientos de cualquiera para volverlo un simple títere deshechable. Puedes controlar el siguiente turno o acción del objetivo si éste falla una prueba de suerte.
+
+*Compañero fantasma* (X)
+El Antrophantasmus Typhon es capaz de dividirse y crear una copia. La estamina que gastes como coste del hechizo será la estamina de tu copia. La copia comparte tus mismas habilidades y conocimientos, pero sólo puedes controlar una a la vez.

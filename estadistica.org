@@ -1,0 +1,8 @@
+#+title: Models estadístics
+#+author: Dorovich
+
+* Models estadístics. Funció lm() en R
+
+*Y = μ + ɛ*
+*Y = μ(D) + ɛ*
+=lm(Y~1)= o =lm(D~1)=
