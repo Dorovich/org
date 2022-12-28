@@ -7,7 +7,7 @@
 #+attr_org: :width 500
 [[./imgs/dragon_neko.jpg]]
 
-[Descripción]
+Nacida como una excepción de la naturaleza, buscas tu sitio en este mundo mientras luchas contra el rechazo de tus dos líneas de sangre, sin saber exactamente como fue posible siquiera la formación de un híbrido entre un Ryū y un Koshki.
 
 ** /Posesiones/
 + Botella de leche (cuenta como una provisión que recupera d3+3 estamina)
