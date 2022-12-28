@@ -15,9 +15,9 @@
 
 ** /Habilidades avanzadas/
 + 2 Imitar forma
-+ 2 Hechizo - Invisibilidad
 + 2 Hechizo - Carga psiónica (como Jolt)
-+ 2 Intimidar
++ 2 Sigilo
++ 2 Intimidación
 + 1 Hechizo - Control mental
 + 1 Hechizo - Compañero fantasma
 

@@ -17,9 +17,10 @@
 
 ** /Habilidades avanzadas/
 + 2 Volar
-+ 2 Hechizo - Bola de fuego
 + 2 Acrobacias
 + 2 Ocultarse
++ 1 Hechizo - Bola de fuego
++ 1 Oído felino
 + 1 Lucha con Garras
 + 1 Persuasión
 
