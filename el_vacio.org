@@ -7,7 +7,7 @@
 #+attr_org: :width 200
 [[./imgs/el_vacio.png]]
 
-En el frio y extenso vacio del espacio no exiten palabras para describir que seres son creados. Su gran magnitud alberga verdaderos horrores que todo individuo desearia no querer conocer. Si tienes suerte puedes no encontrarte con ninguna entidad del vacio pero si lo haces reza por que no este hambriento.
+En el frío y extenso vacío del espacio no existen palabras para describir que seres son creados. Su gran magnitud alberga verdaderos horrores que todo individuo desearía no querer conocer. Si tienes suerte puedes no encontrarte con ninguna entidad del vacío, pero si lo haces reza para que no este hambriento.
 
 ** /Posesiones/
 + 3 Cistoides (daño como desarmado, si aciertan el objetivo debe superar una prueba de suerte o quedar radiado (como envenedado, se puede acumula). Se recupera 1 Cistoide después de cada combate o al final de cada día).
