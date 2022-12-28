@@ -3,3 +3,6 @@
 #+attr_html: :width 600
 #+attr_org: :width 600
 [[./imgs/dog.jpg]]
+
+* Si eres Carla, Xela o Joel...
+*NO MIREIS EL ARCHIVO oneshot_troika.org PLS*

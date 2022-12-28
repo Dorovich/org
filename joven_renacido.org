@@ -22,7 +22,8 @@ Solías ser un deshecho de la sociedad, pero tu vida miserable dio un vuelco cua
 + 1 Hechizo - Clarividencia
 + 1 Nadar
 
-** /Anexo: Hechizos/
+** /Anexo/
+*** Hechizos
 *Robo* (2)
 El mago extiende un apéndice en dirección al objeto que desea. Dicho objeto (u otro de similar importancia) aparece en la mano del mago si este supera una prueba de suerte.
 
