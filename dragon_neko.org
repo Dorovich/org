@@ -10,6 +10,10 @@
 [Descripción]
 
 ** /Posesiones/
++ Botella de leche (cuenta como una provisión que recupera d3+3 estamina)
++ Manual del Dragón
++ Amuleto del la aldea Tot
++ Kit para acicalarse
 
 ** /Habilidades avanzadas/
 + 2 Volar
@@ -20,7 +24,7 @@
 + 1 Persuasión
 
 ** /Especial/
-Eres descendiente de una familia de dragones, tu piel es immune al fuego. La otra mitad de tu familia son felinos, puedes ver en la oscuridad, además posees gran agudeza sonora.
+Los Neko-dragones reciben la mitad del daño de un ataque con fuego, y pueden ver en la oscuridad, pero no distinguir matices de colores.
 
 ** /Anexo/
 *** Habilidades

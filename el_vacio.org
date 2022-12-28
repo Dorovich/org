@@ -22,6 +22,7 @@
 + 1 Hechizo - Compañero fantasma
 
 ** /Especial/
+Eres una entidad extraespacial, por lo que no necesitas respirar ni bombear sangre.
 
 ** /Anexo/
 *** Habilidades
