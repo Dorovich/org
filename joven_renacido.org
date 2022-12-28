@@ -21,6 +21,7 @@ Solías ser un deshecho de la sociedad, pero tu vida miserable dio un vuelco cua
 + 2 Hechizo - Robo
 + 1 Hechizo - Clarividencia
 + 1 Nadar
++ 1 Ingeniería
 
 ** /Anexo/
 *** Hechizos
