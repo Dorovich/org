@@ -113,3 +113,80 @@ Los ratones elegantes se preocupan por cosas como el perfume que se pondrán al 
 
 ** Orden de recuperación
 El nuevo orden de recuperación de las condiciones es: *Hambriento/Sediento -> Enfadado -> Asustado -> Cansado -> Herido -> Enfadado*.
+
+* [WIP] Atributos
+
+** Acero
+El Acero es un atributo que representa los nervios de tu personaje. Su valor oscila entre 1 y 6. Se pone a prueba cuando quedas conmocionado o sorprendido en situaciones que requieren actuar sin vacilar, y su resultado indica si retrocedes o tus nervios de acero te ayudan a seguir tu camino. La sorpresa, el dolor, el miedo y el asombro pueden provocar pruebas de Acero. Todo personaje empieza con un valor inicial de Acero de acuerdo a su rango.
+
+| *Rango*              | *Acero inicial* |
+|----------------------+-----------------|
+| Zarpa tierna         |               2 |
+| Guardián             |               3 |
+| Guardián de patrulla |               3 |
+| Líder de patrulla    |               4 |
+| Capitán de guardia   |               4 |
+
+Además, debe responder a las siguientes preguntas para ver si éste fluctúa:
+
+/¿Ha sido educado en un entorno competitivo?/
++ Incrementa tu Acero en 1 si la respuesta es sí.
+/¿Ha matado o asesinado con sus propias manos?/
++ Aumenta en 1 tu Acero si lo has hecho más de una vez. No puedes escoger el rasgo Compasivo.
+/¿Ha vivido una vida libre de violencia y dolor?/
++ Si es así, reduce tu Acero en 1.
+
+* Combate en profundidad
+Cuando la abstracción de un Conflicto no es suficiente para un combate emocionante, se puede optar por las reglas de Combate en profundidad para seguir la acción más de cerca. Los pasos a seguir son los siguientes:
+
+** 1. Decidir participantes
+Primero se deciden los participantes del combate. Si se está usando un tablero, este es el momento de posicionarse.
+
+** 2. Declarar objetivos
+Una vez decidido quién participa, cada uno escoge un objetivo. Puede ser algo como eliminar a los arqueros enemigos, despejar la entrada de la fortaleza, o algo que se pueda cumplir durante la lucha.
+
+** 3. Generar disposiciones iniciales
+Cada participante genera su disposición para el combate. Se usa Salud como base y se le añade el resultado de una prueba se Luchador Ob 0 (o Cazador u otra habilidad si es contra un animal salvaje o algo diferente). Se aplican las desventajas apropiadas, como si fuera un conflicto.
+
+** 4. Elegir las acciones
+A partir de aquí, en cada ronda cada participante elige individualmente (y en secreto) una única acción y contra quién se efectua dicha acción.
+
+** 5. Resolver las acciones
+Cuando todos han decidido las acciones de la ronda, se resuelven como si fuera un conflicto. Una vez resueltas, se eligen nuevas para la siguiente ronda, y así sucesivamente hasta que el combate haya finalizado.
+
+** 6. ¿Fin del combate?
+El combate finaliza cuando se da alguno de los siguientes casos:
+- Todos los objetivos han sido resueltos
+- No queden objetivos opuestos sin resolver
+- No quedan disposiciones superiores a 0.
+
+** Otra posible manera
+Una implementación posible de Combates en profundidad ciñéndose más a las reglas originales sería considerar cada participante como un equipo individual, y con voleas de 1 única acción.
+
+** Aclaraciones
+Si se usa un tablero cuadriculado para una experiencia más inmersiva de combate, se puede considerar que cada casilla referencia aproximadamente a una superfície de 20x20 centímetros.
+
+*** Movimiento
+Un ratón se puede mover tantas casillas en una ronda como Naturaleza tenga. Es decir, un ratón con Naturaleza 5 podría moverse hasta 5 casillas en una única ronda.
+
+*** Rango
+Las armas arrojadizas o de proyectiles con las que se pretenda atacar a algo más lejano al número de casillas descritas arriba deberá aplicar una desventaja según la distancia.
+
+- *Normal*: 1 casilla.
+- *Lanza*: hasta 2 casillas.
+- *Arrojadiza*: hasta 4 casillas.
+    /hasta 1 casillas más/: -1D.
+    /hasta 2 casillas más/: -2D.
+- *Proyectil*: hasta 12 casillas.
+    /hasta 4 casillas más/: -1D.
+    /hasta 8 casillas más/: -2D.
+
+* Heridas terribles
+Además de la condición Herido, se añade la de Gravemente herido. Esta, en vez de una desventaja de -1D a las pruebas de Naturaleza, Salud, Voluntad y Habilidades, aplica una de -2D, y adicionalmente impide el avance y mejora de aptitudes y habilidades mientras dure.
+
+Un personaje puede quedar Gravemente herido como resultado de un conflicto con un compromiso considerablemente grande, o bien al fallar una prueba peligrosa y ya estaba Herido, por ejemplo.
+
+Las heridas graves no pueden ser recuperadas en solitario: se requiere la ayuda de un sanador, el cual debe superar una prueba de Sanador Ob 5 para eliminar la condición. Sin embargo, puede seguir eliminándola a coste de daños permanentes, como:
+
+- Pérdida de 1 punto de dos aptitudes o habilidades diferentes.
+- Pérdida de 1 punto de una aptitud o habilidad y pérdida de 1 punto, eliminación o cambio de un rasgo.
