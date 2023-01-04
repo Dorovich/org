@@ -151,6 +151,10 @@ El combate finaliza cuando se da alguno de los siguientes casos:
 - No queden objetivos opuestos sin resolver
 - No quedan disposiciones superiores a 0.
 
+#+attr_html: :width 70% :height auto
+#+attr_org: :width 600
+[[./imgs/a_fight_ensues.jpg]]
+
 ** Otra posible manera
 Una implementación posible de Combates en profundidad ciñéndose más a las reglas originales sería considerar cada participante como un equipo individual, y con voleas de 1 única acción.
 
@@ -159,6 +163,8 @@ Si se usa un tablero cuadriculado para una experiencia más inmersiva de combate
 
 *** Movimiento
 Un ratón se puede mover tantas casillas en una ronda como Naturaleza tenga. Es decir, un ratón con Naturaleza 5 podría moverse hasta 5 casillas en una única ronda.
+
+El resto de animales también se mueve tanto como Naturaleza tanga. Si el animal es volador y camina sobre tierra, este usa la mitad de su Naturaleza para sus movimientos. Si se cabalaga una montura, se usa la Naturaleza de esta.
 
 *** Rango
 Las armas arrojadizas o de proyectiles con las que se pretenda atacar a algo más lejano al número de casillas descritas arriba deberá aplicar una desventaja según la distancia.
@@ -181,3 +187,7 @@ Las heridas graves no pueden ser recuperadas en solitario: se requiere la ayuda 
 
 - Pérdida de 1 punto de dos aptitudes o habilidades diferentes.
 - Pérdida de 1 punto de una aptitud o habilidad y pérdida de 1 punto, eliminación o cambio de un rasgo.
+
+#+attr_html: :width 50% :height auto
+#+attr_org: :width 300
+[[./imgs/scars.jpg]]
