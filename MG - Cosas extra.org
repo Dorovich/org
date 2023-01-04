@@ -57,7 +57,7 @@ Un ratón apático no se deja llevar por las emociones, sean propias o de otros.
 Los padres de los jóvenes ratones les advierten de ciertas plantas con efectos adictivos. Este ratón sucumbió a alguna. Siente gran relajación después de consumirla, pero su humor cambiará si pasa mucho tiempo sin tenerla cerca.
 
 ** Torpe
-Dicen que el fallo es un paso natural en el aprendizaje, pero este ratón es el colmo. Hace falta que un ratón torpe memoriza cada paso del camino para no cometer una imprudencia, y la sabiduría de mil tropiezos suele ser de ayuda.
+Dicen que el fallo es un paso natural en el aprendizaje, pero este ratón es el colmo. Hace falta que un ratón torpe memorize cada paso del camino para no cometer una imprudencia, pero la sabiduría de mil tropiezos suele ser de ayuda.
 
 ** Sensible
 Comprender las emociones y los detalles de otros es el punto fuerte de un ratón sensible. Sin embargo, esta gran influencia de los demás suele hacer que los problemas de otros se conviertan en los propios.
@@ -162,9 +162,15 @@ Una implementación posible de Combates en profundidad ciñéndose más a las re
 Si se usa un tablero cuadriculado para una experiencia más inmersiva de combate, se puede considerar que cada casilla referencia aproximadamente a una superfície de 20x20 centímetros.
 
 *** Movimiento
-Un ratón se puede mover tantas casillas en una ronda como Naturaleza tenga. Es decir, un ratón con Naturaleza 5 podría moverse hasta 5 casillas en una única ronda.
+Un ratón se puede mover tantas casillas en una ronda como Naturaleza tenga. Es decir, un ratón con Naturaleza 5 podría moverse hasta 5 casillas en una única ronda. El mínimo número de casillas que un personaje o criatura puede moverse es 1, siempre y cuendo no esté inconsciente ni incapacitado de algún modo.
 
 El resto de animales también se mueve tanto como Naturaleza tanga. Si el animal es volador y camina sobre tierra, este usa la mitad de su Naturaleza para sus movimientos. Si se cabalaga una montura, se usa la Naturaleza de esta.
+
+Si un personaje está Herido y/o Enfermo, las casillas que es capaz de moverse en una ronda disminuye en 2. Si está Gravemente herido, se reduce en 4.
+
+#+attr_html: :width 80% :height auto
+#+attr_org: :width 800
+[[./imgs/hare_mounts.jpg]]
 
 *** Rango
 Las armas arrojadizas o de proyectiles con las que se pretenda atacar a algo más lejano al número de casillas descritas arriba deberá aplicar una desventaja según la distancia.
@@ -191,3 +197,12 @@ Las heridas graves no pueden ser recuperadas en solitario: se requiere la ayuda 
 #+attr_html: :width 50% :height auto
 #+attr_org: :width 300
 [[./imgs/scars.jpg]]
+
+* Alojando éxitos
+Las tiradas exitosas se pueden mejorar alojando éxitos sobrantes. Cualquier éxito obtenido por encima del objetivo de la prueba se puede alojar en:
+
+- Aumentar un poco su calidad.
+- Realizarlo algo más rápidamente.
+- Embellecer su realización.
+
+Cuantos más éxitos se alojen, más mejoras se pueden lograr.
