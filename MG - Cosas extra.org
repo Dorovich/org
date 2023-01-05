@@ -45,7 +45,7 @@ Científico y los Conocimientos apropiados.
 * Rasgos
 
 ** Cobarde
-Los ratones cobardes no hacen apuestas ni compromisos de gran importancia, lo que les evita muchas situaciones complicadas y dolores de cabeza. Sim embargo, tal reputación puede alejar a aquellos que confían en ti o a los necesitados.
+Los ratones cobardes no hacen apuestas ni compromisos de gran importancia, lo que les evita muchas situaciones complicadas y dolores de cabeza. Sin embargo, tal reputación puede alejar a aquellos que confían en ti o a los necesitados.
 
 ** Sádico
 Un ratón sádico siente atracción por el sufrimiento y la humillación de otros, y procura hurdir situaciones para que tomen ese camino. La situación se complica en un ambiente social regido por el respeto, como un juzgado o una corte.
